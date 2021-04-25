@@ -2,7 +2,7 @@
 title: 82L-Portfolio
 description: 'A Portfolio for a student in Serious Games'
 url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+baseurl: '/82L'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -12,8 +12,8 @@ author:
   email: josh@joshgerdes.com
   twitter_username: joshgerdes
   facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  github_username:  82l
+
 
 defaults:
   -
