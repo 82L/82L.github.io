@@ -2,7 +2,7 @@
 title: 82L-Portfolio
 description: 'A Portfolio for a student in Serious Games'
 url: 'https://82l.github.io'
-baseurl: '/82L'
+baseurl: '/82l'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
