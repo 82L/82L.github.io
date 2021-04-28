@@ -85,6 +85,15 @@
               </a>
             </li>
             {% endif %}
+            {% if site.author.email %} 
+            <li class="navigation__item">
+              <a href="mailto:{{ site.author.email }}" title="Send Email to {{ site.author.email }}" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-envelope fa-lg"></i>
+                <span class="label">Email</span>
+              </a>
+            </li>
+            {% endif %}
 
 
             </ul>
@@ -93,9 +102,15 @@
           <!--<nav class="cover-navigation cover-navigation--primary">-->
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Projects" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#cv" title="link to Resume"  class="panel-button cv-button"><i class="fas fa-file-alt fa-lg"></i>&nbsp;Resume</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#mail" title="link to Email"  class="panel-button mail-button"><i class="fas fa-envelope fa-lg"></i>&nbsp;Email</a></li>
+              {% if site.gotProjects %} 
+                <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Projects" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
+              {% endif %}
+              {% if site.gotResume %} 
+                <li class="navigation__item"><a href="{{ site.baseurl }}/#cv" title="link to Resume"  class="panel-button cv-button"><i class="fas fa-file-alt fa-lg"></i>&nbsp;Resume</a></li>
+              {% endif %}
+              {% if site.mail_form %} 
+                <li class="navigation__item"><a href="{{ site.baseurl }}/#mail" title="link to Email"  class="panel-button mail-button"><i class="fas fa-envelope fa-lg"></i>&nbsp;Email</a></li>
+              {% endif %}
             </ul>
           </nav>
         

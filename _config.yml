@@ -18,6 +18,9 @@ author:
 #  linkedin_username:  thomas-zühlke-889182165
 #  meetup_name: Azure-Meetup-Rostock-MV
 email_form: "https://docs.google.com/forms/d/e/1FAIpQLScMSpmmv4D43Xb78ooInG0cjRd5D1UqQsPOlAbQrypOmXA9FA/viewform?embedded=true"
+gotProjects: true
+gotResume: true
+
 # Build settings
 destination: _site
 markdown: kramdown

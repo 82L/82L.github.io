@@ -4,6 +4,7 @@ robots: noindex
 ---
 
 <!--<div class="main-post-list">-->
+  {% if site.gotProjects %} 
 <div id="projects" class="">
   <ul class="timeline">
 
@@ -36,12 +37,17 @@ robots: noindex
     </li> -->
   </ul>
 </div>
+{% endif %}
+{% if site.gotResume %} 
 <div id="cv" class="content-element">
-  <h2>Test</h2>
+  <h2>Resume</h2>
 </div>
+{% endif %}
+{% if site.mail_form %} 
 <div id="mail" class="content-element">
   <!-- <h2>Test</h2> -->
   <iframe src="{{ site.email_form }}" class="gform"frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 </div>
+{% endif %}
 <!--</div>-->
 
