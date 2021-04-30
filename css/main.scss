@@ -4,6 +4,7 @@
 @import "tables";
 @import "monokai";
 @import "timeline";
+@import "cv";
 
 /* Modifications */
 
@@ -58,16 +59,12 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
-.content-element{
-  border-top: 2px solid #dddddd;
-  padding-top: 1rem;
-  width: 100%;
-}
+
 .navigation__item a.active {
   background-color: #fff;
   color: rgb(32, 32, 32);
 }
 .gform{
   width: 100%;
-  height: 650px;
+  // height: 650px;
 }

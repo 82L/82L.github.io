@@ -5,7 +5,8 @@ robots: noindex
 
 <!--<div class="main-post-list">-->
   {% if site.gotProjects %} 
-<div id="projects" class="">
+<div id="projects" class="content-element">
+  <h2>Projects</h2>
   <ul class="timeline">
 
     {% for project in site.data.projects %}
@@ -20,12 +21,17 @@ robots: noindex
           </div>
           <div class="timeline-body">
             {{ project.desc | markdownify }}
+            
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>&emsp;&emsp;  
               <div style="height: 10px;"></div>
-          </div>
+            </div>
+            {% if project.itchio %}
+                <a target="_blank" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+              {% endif %}
+        </div>
         </div>
       </li>
     {% endfor %}
@@ -41,12 +47,71 @@ robots: noindex
 {% if site.gotResume %} 
 <div id="cv" class="content-element">
   <h2>Resume</h2>
+  <div class="resume-element"> 
+  <h3>Experiences</h3>
+  <ul>
+    {% for experience in site.data.experiences %}
+    <li>
+      <h4>{{experience.post}} 
+        {% if experience.enterprise %}
+        - 
+        {% endif %}
+       <span class="span-italic"> {{experience.enterprise}}  - {{ experience.year }} </span> </h4>
+      <p>
+        {{experience.type}}
+        {% if experience.duration %}
+          ( {{experience.duration}} )
+        {% endif %}
+       
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="resume-element"> 
+  <h3>Technologies</h3>
+  <ul>
+  {% for technology in site.data.technologies %}
+    <li>
+      <h4>{{technology.name}}</h4>
+      <p>{{technology.level}}</p>
+    </li>
+  {% endfor %}
+  </ul>
+  </div>
+  <div class="resume-element">
+  <h3>Languages</h3>
+  <ul>
+  {% for language in site.data.languages %}
+    <li>
+      <h4>{{language.name}}</h4>
+      <p>{{language.level}}</p>
+      
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+<div class="resume-element resume-element-last">  
+  <h3>Diplomas</h3>
+  <ul>
+  {% for diploma in site.data.diplomas %}
+    <li>
+      <h4 class="desc">{{diploma.name}} -
+      {{diploma.obtention_year}}</h4>
+      {% if diploma.subtitle %}
+        <span class="span-italic span-size" >( {{diploma.subtitle}} )</span>
+      {% endif %}
+      <p>{{diploma.university}}</p>
+    </li>
+  {% endfor %}
+  </ul>
+</div> 
 </div>
 {% endif %}
-{% if site.mail_form %} 
+{% if site.email_form %} 
 <div id="mail" class="content-element">
   <!-- <h2>Test</h2> -->
-  <iframe src="{{ site.email_form }}" class="gform"frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+  <iframe src="{{ site.email_form }}" id="myForm" class="gform" height="650px" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 </div>
 {% endif %}
 <!--</div>-->
