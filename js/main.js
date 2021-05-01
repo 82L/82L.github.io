@@ -16,6 +16,7 @@ $(document).ready(function () {
     console.log("Button clicked")
     $('.navigation__item a').removeClass("active");
     $(this).addClass("active");
+  
     //if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     //Si le content wrapper se montre
     if ($('.content-wrapper').hasClass('showing') 
@@ -60,6 +61,15 @@ $(document).ready(function () {
       
       return;
     }
+    if($(this).hasClass('projects-button')){
+      self.open="projects";
+    }
+    else if($(this).hasClass('cv-button')){
+      self.open="cv";
+    }
+    else if($(this).hasClass('mail-button')){
+      self.open="mail";
+    }
     //si c'est pas en train de montrer
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960
@@ -91,7 +101,7 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
     $('.projects-button').click();
    self.open="projects"
-   console.log("test")
+   console.log(self.open)
    $('.projects-button').addClass("active")
   }
   if (window.location.hash && window.location.hash == '#cv') {
