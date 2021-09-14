@@ -103,7 +103,10 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
               {% if site.gotProjects %} 
-                <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Projects" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Projects</a></li>
+                <li class="navigation__item"><a href="{{ site.baseurl }}/#projects" title="link to Projects" class="panel-button projects-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Student Projects</a></li>
+              {% endif %}
+              {% if site.gotWork %}
+                <li class="navigation__item"><a href="{{ site.baseurl }}/#work" title="link to Work Projects" class="panel-button work-button"><i class="fas fa-file-code fa-lg"></i>&nbsp;Work Projects</a></li>
               {% endif %}
               {% if site.gotResume %} 
                 <li class="navigation__item"><a href="{{ site.baseurl }}/#cv" title="link to Resume"  class="panel-button cv-button"><i class="fas fa-file-alt fa-lg"></i>&nbsp;Resume</a></li>
