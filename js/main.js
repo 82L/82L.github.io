@@ -44,7 +44,11 @@ $(document).ready(function () {
         // $('#mail').scrollIntoView();
         return;
       }
-    
+        else if(self.open != 'work' && $(this).hasClass('work-button')){
+          self.open="work";
+          // $('#mail').scrollIntoView();
+          return;
+        }
       //Retire les class
       $('.content-wrapper').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -69,6 +73,9 @@ $(document).ready(function () {
     }
     else if($(this).hasClass('mail-button')){
       self.open="mail";
+    }
+    else if($(this).hasClass('work-button')){
+      self.open="work";
     }
     //si c'est pas en train de montrer
     currentWidth = $('.panel-cover').width()
@@ -103,6 +110,13 @@ $(document).ready(function () {
    self.open="projects"
    console.log(self.open)
    $('.projects-button').addClass("active")
+  }
+  if (window.location.hash && window.location.hash == '#work') {
+    $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.work-button').click();
+    self.open="work"
+    console.log(self.open)
+    $('.work-button').addClass("active")
   }
   if (window.location.hash && window.location.hash == '#cv') {
     $('.panel-cover').addClass('panel-cover--collapsed')

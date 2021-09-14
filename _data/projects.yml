@@ -2,21 +2,6 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: Visit of Amiens Cathedrale Transept
-  gh_user: 82L
-  repo: AmiensTranseptCathedrale
-  img: https://i.pinimg.com/originals/c0/d3/12/c0d312820bba65ffc0ada5f53669084c.jpg
-  itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
-  desc: A project where you visit a bit of Amiens Cathedral. The code was made using Three.JS, during a class about it. 
-
-- name: Digital Yokai No Mori
-  gh_user: 82L
-  repo: Digital-Yokai-No-Mori
-  img: https://troll2jeux.com/89260-large_default/yokai-no-mori.jpg
-  desc: Student project in C# where a classmate and I reproduced the board game Yokai no Mori. The game is licensed by Ferti.
-
-- name: Little game in C
-  gh_user: 82L
-  img: https://www.tech2tech.fr/wp-content/uploads/2020/05/terminal-new-780x470.jpg
-  repo: Projet-Info-Jeu-C
-  desc: First Game, and project as Student in C. Didn't even have a class on pointers.
+-
+-
+-

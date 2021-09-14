@@ -229,7 +229,12 @@ pre {
 	z-index: 800;
 	width: 60%;
 	max-width: 800px;
-	margin-left: 40%; }
+	margin-left: 40%;
+	display: none;
+}
+.content-wrapper.showing{
+	display: inherit;
+}
 
 .content-wrapper__inner {
 	margin: 0 10%;
