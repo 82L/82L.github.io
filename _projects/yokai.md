@@ -1,10 +1,13 @@
 ---
   layout: "pageProject"
-  title:  "Welcome to Jekyll!"
+  title:  "Digital Yokai No Mori"
   name: Digital Yokai No Mori
   gh_user: 82L
-  nameUrl: yokai
   repo: Digital-Yokai-No-Mori
-  img: https://troll2jeux.com/89260-large_default/yokai-no-mori.jpg
+  img: images/yokai.jpg
   desc: Student project in C# where a classmate and I reproduced the board game Yokai no Mori. The game is licensed by Ferti.
+  keyVal: 5
+  year: 2017
 ---
+<p>This project was my first game. I worked on it in a tandem. I was in charge of the development, and my comrade of the UI</p>
+<p>It was also one of my first works in C#. It was quite hard, as I didn't know that well the language</p>

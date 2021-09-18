@@ -13,8 +13,8 @@
                     <h2>{{ page.name }}</h2>
                     <p class="year-block">{{ page.year}}</p>
                     <p class="short-desc">{{page.desc}}</p>
-                    {% if page.itchio %}
-                    <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+                    {% if page.link %}
+                    <a target="_blank" class="foreign-link" href="{{ page.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
                     {% if page.repo %}
                     <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
@@ -22,9 +22,10 @@
                 </div>
                 {{content}}
             </div>
+
         </div>
         {% if page.galleryUrl %}
-        {% include image-gallery.html folder=page.galleryUrl %}
+        {% include image-gallery.html folder='/images/orleans' %}
         {% endif %}
         {% include footer.html %}
     </div>

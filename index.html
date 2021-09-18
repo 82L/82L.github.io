@@ -20,6 +20,7 @@ robots: noindex
             <h4><a href="{{ project.url }}">{{ project.name }}</a></h4>
           </div>
           <div class="timeline-body">
+            {{ project.year | markdownify }}
             {{ project.desc | markdownify }}
             {% if project.repo %}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
@@ -30,10 +31,10 @@ robots: noindex
             </div>
             {% endif %}
             {% if project.itchio %}
-                <a target="_blank" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+                <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
               {% endif %}
             {% if project.repo %}
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+              <a target="_blank" class="foreign-link"  href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
             {% endif %}
         </div>
         </div>
@@ -57,7 +58,7 @@ robots: noindex
           <h4><a href="{{ work.url }}">{{ work.name }}</a></h4>
         </div>
         <div class="timeline-body">
-          {{ work.client | markdownify }}
+          {{ work.year | markdownify }} {{ work.client | markdownify }}
           {{ work.enterprise | markdownify }}
           {{ work.desc | markdownify }}
           {% if work.repo %}
@@ -69,10 +70,10 @@ robots: noindex
           </div>
           {% endif %}
           {% if work.link %}
-          <a target="_blank" href="{{ work.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
+          <a target="_blank" class="foreign-link" href="{{ work.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
           {% endif %}
           {% if work.repo %}
-          <a target="_blank" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+          <a target="_blank" class="foreign-link" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
           {% endif %}
         </div>
       </div>

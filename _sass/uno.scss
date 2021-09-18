@@ -227,8 +227,8 @@ pre {
 
 .content-wrapper {
 	z-index: 800;
-	width: 60%;
-	max-width: 800px;
+	//width: 60%;
+	//max-width: 800px;
 	margin-left: 40%;
 	display: none;
 }
@@ -786,7 +786,7 @@ input[type="tel"] {
 			padding-top: 5px; }
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
-				width: 25.8%; }
+				}
 
 	.content-wrapper {
 		width: 80%;

@@ -12,6 +12,7 @@ collections:
     output: true
   projects:
     output: true
+    sort_by: keyVal
 #    label: work_projects
 
 
@@ -45,4 +46,4 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['README.md', 'screenshot-overview.png', "jekyll-uno-master.zip","jekyll-uno-timeline-master.zip","iframe-resizer-master.zip"]
