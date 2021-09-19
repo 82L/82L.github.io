@@ -8,8 +8,8 @@ robots: noindex
 <div id="projects" class="content-element">
   <h2>Student Projects</h2>
   <ul class="timeline">
-
-    {% for project in site.projects %}
+    {% assign myprojects = site.projects | sort: "keyVal" %}
+    {% for project in myprojects %}
 
       <li class="timeline-inverted">
         <div class="timeline-image">
@@ -58,8 +58,12 @@ robots: noindex
           <h4><a href="{{ work.url }}">{{ work.name }}</a></h4>
         </div>
         <div class="timeline-body">
-          {{ work.year | markdownify }} {{ work.client | markdownify }}
-          {{ work.enterprise | markdownify }}
+          <p>
+            {{ work.year }} - {{ work.enterprise }}
+          </p>
+          {% if work.client %}
+            <p>Client: {{ work.client }}</p>
+          {% endif %}
           {{ work.desc | markdownify }}
           {% if work.repo %}
           <div user="{{ work.gh_user }}" repo="{{ work.repo }}" class="ghbtn" style="margin-top: 10px;">
