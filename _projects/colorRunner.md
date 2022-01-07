@@ -14,4 +14,4 @@
 <p>The exact task was to do a runner, with a twist. I came up with the idea of the colorswapping.</p>
 <p>We worked as a two-man team. I've done the global game system, the controls, the inclusion of the designs, and a part of the menu, while my comrade worked on the platform generation.</p>
 <p>During the project, the teacher imposed us the designs, but it was more a relief than a burden, because we didn't got them yet.</p>
-<p>There is a few points I want to improve in the project, maybe when I'll get time : change the designs, drop one color button, and add responsive music.</p>
+<p>There is a few points I want to improve in the project, maybe when I'll get time : remove bugs, change the designs, drop one color button, add color mixes, and add responsive music.</p>
