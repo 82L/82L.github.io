@@ -5,7 +5,7 @@
   gh_user: 82L
   repo: 
   img: images/runner.png
-  itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
+  itchio: https://82l.itch.io/color-runner
   desc: Unity Project for the planning class of my master
   keyVal: 1
   year: 2021
