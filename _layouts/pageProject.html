@@ -14,10 +14,10 @@
                     <p class="year-block">{{ page.year}}</p>
                     <p class="short-desc">{{page.desc}}</p>
                     {% if page.itchio %}
-                    <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+                    <a target="_blank" class="foreign-link" href="{{ page.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
                     {% if page.repo %}
-                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+                    <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
                     {% endif %}
                 </div>
                 {{content}}
