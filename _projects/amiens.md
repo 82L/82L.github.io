@@ -9,6 +9,7 @@
   desc: A project where you visit a bit of Amiens Cathedral. The code was made using Three.JS, during a class about it.
   keyVal: 4
   year: 2018
+  type: 1
 ---
 <p>This project is here, as it is my first 3D experience.</p>
 <p>The teacher gave us the 3D file of the cathedral, and tasked us to add a few things:</p>

@@ -9,6 +9,7 @@
   desc: Project for the adobe animate class of my master.
   keyVal: 2
   year: 2020
+  type: 1
 ---
 <p>Animate is one of the worst software to develop a video game. I kind of gave up to make it perfect.</p>
 <p>The goal was to make an interactive software with animate, with an interesting proposition in it</p>

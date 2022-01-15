@@ -9,6 +9,7 @@
   desc: Unity Project for the planning class of my master
   keyVal: 1
   year: 2021
+  type: 1
 ---
 <p>This project was given to us, so the teacher could point out the problems in our workflow, and try to give us harships as the client.</p>
 <p>The exact task was to do a runner, with a twist. I came up with the idea of the colorswapping.</p>
