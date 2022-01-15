@@ -152,3 +152,39 @@ $(document).ready(function () {
     toggleMobileMenu();
   })
 })
+
+$(".filter-type").on("change", function () {
+  var element = $(this);
+  //filtrage
+  self.filterList(element.val(), "filterType", "type");
+
+});
+
+ //montrer ou cacher les objets en fonction des filtres
+ function filterObject(element) {
+  //si tous les filtres sont a True (position défaut) on affiche
+  if (
+      element.dataset.filterType === "true") {
+      element.style.display = "";
+  } else {
+      element.style.display = "none";
+  }
+}
+
+$(".filter-type").trigger("change");
+
+ //filtring all, in fonction of the data obj
+ function filterList (idToSearch, dataObj, idObj) {
+  const self = this;
+  let list = $("#projectTimeline").children("li");
+  for (object of list) {
+      let idArray = object.dataset[idObj].split(";");
+      if (idArray.indexOf(idToSearch) > -1) {
+          object.dataset[dataObj] = "true";
+      } else {
+          object.dataset[dataObj] = "false";
+      }
+      self.filterObject(object);
+  }
+}
+
