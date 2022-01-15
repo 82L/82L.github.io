@@ -8,6 +8,7 @@
   desc: First Game and big project, as a young programming student in C. I didn't even have a class about pointers.
   keyVal: 6
   year: 2015
+  type: 1
 ---
 <p> This project was about making a simple map. Where the user could move. With different elements on it:</p>
 <ul>
