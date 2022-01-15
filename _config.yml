@@ -16,6 +16,7 @@ collections:
 #    label: work_projects
 
 
+
 author:
   name: '82L'
  # email: info@thomas-zuehlke.de
@@ -30,6 +31,13 @@ gotProjects: true
 gotResume: true
 gotWork: true
 
+projectTypes:
+  - VideoGame: 
+    typedesc: "Show Video Game Projects"
+    id: 1
+  - WoodWorking:
+    typedesc : "Show WoodWorking Projects"
+    id: 2
 # Build settings
 destination: _site
 markdown: kramdown

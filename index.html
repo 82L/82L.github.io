@@ -6,12 +6,19 @@ robots: noindex
 <!--<div class="main-post-list">-->
   {% if site.gotProjects %} 
 <div id="projects" class="content-element">
-  <h2>Student Projects</h2>
-  <ul class="timeline">
+  <h2>Personnal and students Projects</h2>
+    <select class="filter-list filter-type" name="types" id="type-select">
+    <option class="btn-type" value="0">Show All types of projects</option>
+      {% for projectType in site.projectTypes %}
+        <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>
+      {% endfor %}
+    </select>
+
+  <ul class="timeline" id="projectTimeline">
     {% assign myprojects = site.projects | sort: "keyVal" %}
     {% for project in myprojects %}
 
-      <li class="timeline-inverted">
+      <li class="timeline-inverted" data-type="0;{{project.type}}" data-filterType="true">
         <div class="timeline-image">
           <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
         </div>
