@@ -2,7 +2,7 @@
 layout: "pageProject"
 title:  "Decorated bamboo mugs"
 name: Decorated bamboo mugs
-img: images/thumb-flute.png
+img: images/thumb-lion1.png
 desc: I wanted to try to make mug out of bamboo. So here is my try
 keyVal: 3.2
 year: 2016-2018
