@@ -6,7 +6,7 @@
   img: images/terminal.jpg
   repo: Projet-Info-Jeu-C
   desc: First Game and big project, as a young programming student in C. I didn't even have a class about pointers.
-  keyVal: 6
+  keyVal: 1
   year: 2015
   type: 1
 ---

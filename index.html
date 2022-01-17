@@ -15,7 +15,7 @@ robots: noindex
     </select>
 
   <ul class="timeline" id="projectTimeline">
-    {% assign myprojects = site.projects | sort: "keyVal" %}
+    {% assign myprojects = site.projects | sort: "keyVal" | reverse %}
     {% for project in myprojects %}
 
       <li class="timeline-inverted" data-type="0;{{project.type}}" data-filterType="true">

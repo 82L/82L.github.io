@@ -7,7 +7,7 @@
   img: images/amiens.jpg
   itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
   desc: A project where you visit a bit of Amiens Cathedral. The code was made using Three.JS, during a class about it.
-  keyVal: 4
+  keyVal: 3
   year: 2018
   type: 1
 ---

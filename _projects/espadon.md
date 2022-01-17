@@ -7,7 +7,7 @@
   img: images/espadon.png
   itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
   desc: Project for the adobe animate class of my master.
-  keyVal: 2
+  keyVal: 5
   year: 2020
   type: 1
 ---

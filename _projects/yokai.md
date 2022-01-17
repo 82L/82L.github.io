@@ -6,7 +6,7 @@
   repo: Digital-Yokai-No-Mori
   img: images/yokai.jpg
   desc: Student project in C# where a classmate and I reproduced the board game Yokai no Mori. The game is licensed by Ferti.
-  keyVal: 5
+  keyVal: 2
   year: 2017
   type: 1
 ---

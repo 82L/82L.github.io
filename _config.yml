@@ -38,6 +38,10 @@ projectTypes:
   - WoodWorking:
     typedesc : "Show WoodWorking Projects"
     id: 2
+  - Forge:
+    typedesc : "Show Forge Projects"
+    id: 3
+
 # Build settings
 destination: _site
 markdown: kramdown

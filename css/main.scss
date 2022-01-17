@@ -88,3 +88,14 @@ select {
 select::-ms-expand {
   display: none;
 }
+
+.project-image{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+.project-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
