@@ -20,5 +20,10 @@ type: 2
 
 <p>Here is one of them : </p>
 <div class="project-gallery">
-    <img class="project-image" src="./flute/thumb-flute.png" alt="The taiwanese aboriginal flute"/>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./flute/flute.png" itemprop="contentUrl" data-size="4010x3008">
+          <img class="project-image" src="./flute/thumb-flute.png" itemprop="thumbnail" alt="The taiwanese aboriginal flute" />
+        </a>
+        <figcaption itemprop="caption description">The taiwanese aboriginal flute</figcaption>
+    </figure>
 </div>

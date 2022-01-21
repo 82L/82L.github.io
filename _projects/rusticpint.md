@@ -16,8 +16,23 @@ Eventually, I used the wood of the pint to do some of my picks.
 
 But I managed to find a log of wood suiting my taste to retry it in the near future
 
-<div class="project-gallery">
-    <img class="project-image" src="./rusticpint/thumb-rusticpint1.png" alt="Recto of the decorated mediator"/>
-    <img class="project-image" src="./rusticpint/thumb-rusticpint2.png" alt="Recto of the decorated mediator"/>
-    <img class="project-image" src="./rusticpint/thumb-rusticpint3.png" alt="Verso of the undecorated mediator"/>
+<div class="project-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./rusticpint/rusticpint1.png" itemprop="contentUrl" data-size="2880x1620">
+          <img class="project-image" src="./rusticpint/thumb-rusticpint1.png" itemprop="thumbnail" alt="A photo of the pint" />
+        </a>
+        <figcaption itemprop="caption description">A photo of the pint</figcaption>
+    </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./rusticpint/rusticpint2.png" itemprop="contentUrl" data-size="3033x1706">
+          <img class="project-image" src="./rusticpint/thumb-rusticpint2.png" itemprop="thumbnail" alt="A photo of the pint" />
+        </a>
+        <figcaption itemprop="caption description">A photo of the pint</figcaption>
+    </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./rusticpint/rusticpint3.png" itemprop="contentUrl" data-size="2754x1549">
+          <img class="project-image" src="./rusticpint/thumb-rusticpint3.png" itemprop="thumbnail" alt="A photo of the pint" />
+        </a>
+        <figcaption itemprop="caption description">A photo of the pint</figcaption>
+    </figure>
 </div>

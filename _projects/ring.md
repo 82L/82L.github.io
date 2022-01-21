@@ -11,18 +11,48 @@ type: 3
 <div>
 <p> When I was in Taiwan as a Volunteer, I fell in love with that ring</p>
 <div class="project-gallery">
-    <img class="project-image" src="./ring/thumb-ringOrigin.png" alt="Original ring found in Taiwan"/>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ringOrigin.png" itemprop="contentUrl" data-size="1460x1459">
+          <img class="project-image" src="./ring/thumb-ringOrigin.png" itemprop="thumbnail" alt="Original ring found in Taiwan" />
+        </a>
+        <figcaption itemprop="caption description">Original ring found in Taiwan</figcaption>
+    </figure>
 </div>
 <p>But as it was pretty expensive, and I didn't have a lot of money, I decided to do it myself</p>
 <p>To do it, I used a vice as an anvil, and a blowtorch as a forge, because I wasn't working with a lot of metal</p>
 <p>The base material was a beer clip, meant to hold the cork in place.</p>
 <p>Here is the result :</p>
 <div class="project-gallery">
-<img class="project-image" src="./ring/thumb-ring1.png" alt="Image of the ring I made"/>
-<img class="project-image" src="./ring/thumb-ring2.png" alt="Image of the ring I made"/>
-<img class="project-image" src="./ring/thumb-ring3.png" alt="Image of the ring I made"/>
-<img class="project-image" src="./ring/thumb-ring4.png" alt="Image of the ring I made"/>
-<img class="project-image" src="./ring/thumb-ring5.png" alt="Image of the ring I made"/>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ring1.png" itemprop="contentUrl" data-size="1187x1187">
+          <img class="project-image" src="./ring/thumb-ring1.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        </a>
+        <figcaption itemprop="caption description">Image of the ring I made</figcaption>
+    </figure>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ring2.png" itemprop="contentUrl" data-size="1519x1519">
+          <img class="project-image" src="./ring/thumb-ring2.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        </a>
+        <figcaption itemprop="caption description">Image of the ring I made</figcaption>
+    </figure>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ring3.png" itemprop="contentUrl" data-size="1174x1174">
+          <img class="project-image" src="./ring/thumb-ring3.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        </a>
+        <figcaption itemprop="caption description">Image of the ring I made</figcaption>
+    </figure>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ring4.png" itemprop="contentUrl" data-size="1200x1201">
+          <img class="project-image" src="./ring/thumb-ring4.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        </a>
+        <figcaption itemprop="caption description">Image of the ring I made</figcaption>
+    </figure>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="./ring/ring5.png" itemprop="contentUrl" data-size="1381x1381">
+          <img class="project-image" src="./ring/thumb-ring5.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        </a>
+        <figcaption itemprop="caption description">Image of the ring I made</figcaption>
+    </figure>
 </div>
 <p>I'm not 100% pleased with it, and I plan to try again with other clips I collected</p>
 </div>
