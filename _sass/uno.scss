@@ -479,13 +479,13 @@ hr {
 .btn-mobile-menu {
 	display: none;
 	position: fixed;
-	z-index: 9999;
+	z-index: 999;
 	top: 0;
 	right: 0;
 	left: 0;
 	width: 100%;
 	height: 42px;
-	background: rgba(0, 0, 0, 0.40);
+	background: rgba(0, 0, 0, 0.60);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	text-align: center; }
 

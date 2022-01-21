@@ -63,4 +63,10 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>
   {% endif %}
+  {% if page.layout == "pageProject" %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/photoswipe/default-skin/default-skin.css">
+    <script src="{{ site.baseurl }}/photoswipe/photoswipe.min.js"></script>
+    <script src="{{ site.baseurl }}/photoswipe/photoswipe-ui-default.min.js"></script>
+  {% endif %}
 </head>
