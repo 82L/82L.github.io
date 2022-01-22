@@ -35,6 +35,9 @@ projectTypes:
   - VideoGame: 
     typedesc: "Show Video Game Projects"
     id: 1
+  - Infography:
+    typedesc: "Show Infography Projects"
+    id: 4
   - WoodWorking:
     typedesc : "Show WoodWorking Projects"
     id: 2
