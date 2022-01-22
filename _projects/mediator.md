@@ -7,6 +7,7 @@ desc: A wooden mediator I made to practice guitar.
 keyVal: 3.3
 year: 2017-2018
 type: 2
+photodir : "./mediators/"
 ---
 <div>
 <p> When I started to try to learn guitar. The idea of creating my own picks emerged</p>
@@ -19,26 +20,26 @@ type: 2
 <p>Here is the pictures of one decorated, and one blank :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./mediators/mediator1.png" itemprop="contentUrl" data-size="1395x1395">
-          <img class="project-image" src="./mediators/thumb-mediator1.png" itemprop="thumbnail" alt="Recto of the decorated mediator" />
+        <a href="{{page.photodir}}mediator1.png" itemprop="contentUrl" data-size="1395x1395">
+          <img class="project-image" src="{{page.photodir}}thumb-mediator1.png" itemprop="thumbnail" alt="Recto of the decorated mediator" />
         </a>
         <figcaption itemprop="caption description">Recto of the decorated mediator</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./mediators/mediator2.png" itemprop="contentUrl" data-size="1351x1351">
-          <img class="project-image" src="./mediators/thumb-mediator2.png" itemprop="thumbnail" alt="Verso of the decorated mediator" />
+        <a href="{{page.photodir}}mediator2.png" itemprop="contentUrl" data-size="1351x1351">
+          <img class="project-image" src="{{page.photodir}}thumb-mediator2.png" itemprop="thumbnail" alt="Verso of the decorated mediator" />
         </a>
         <figcaption itemprop="caption description">Verso of the decorated mediator</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./mediators/mediator3.png" itemprop="contentUrl" data-size="2172x2172">
-          <img class="project-image" src="./mediators/thumb-mediator3.png" itemprop="thumbnail" alt="Recto of the undecorated mediator" />
+        <a href="{{page.photodir}}mediator3.png" itemprop="contentUrl" data-size="2172x2172">
+          <img class="project-image" src="{{page.photodir}}thumb-mediator3.png" itemprop="thumbnail" alt="Recto of the undecorated mediator" />
         </a>
         <figcaption itemprop="caption description">Recto of the undecorated mediator</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./mediators/mediator4.png" itemprop="contentUrl" data-size="2023x2022">
-          <img class="project-image" src="./mediators/thumb-mediator4.png" itemprop="thumbnail" alt="Verso of the undecorated mediator" />
+        <a href="{{page.photodir}}mediator4.png" itemprop="contentUrl" data-size="2023x2022">
+          <img class="project-image" src="{{page.photodir}}thumb-mediator4.png" itemprop="thumbnail" alt="Verso of the undecorated mediator" />
         </a>
         <figcaption itemprop="caption description">Verso of the undecorated mediator</figcaption>
     </figure>

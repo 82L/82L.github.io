@@ -7,13 +7,14 @@ desc: A tentative to reproduce a ring I found in Taiwan
 keyVal: 3.5
 year: 2020
 type: 3
+photodir : "./ring/"
 ---
 <div>
 <p> When I was in Taiwan as a Volunteer, I fell in love with that ring</p>
 <div class="project-gallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ringOrigin.png" itemprop="contentUrl" data-size="1460x1459">
-          <img class="project-image" src="./ring/thumb-ringOrigin.png" itemprop="thumbnail" alt="Original ring found in Taiwan" />
+        <a href="{{page.photodir}}ringOrigin.png" itemprop="contentUrl" data-size="1460x1459">
+          <img class="project-image" src="{{page.photodir}}thumb-ringOrigin.png" itemprop="thumbnail" alt="Original ring found in Taiwan" />
         </a>
         <figcaption itemprop="caption description">Original ring found in Taiwan</figcaption>
     </figure>
@@ -24,32 +25,32 @@ type: 3
 <p>Here is the result :</p>
 <div class="project-gallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ring1.png" itemprop="contentUrl" data-size="1187x1187">
-          <img class="project-image" src="./ring/thumb-ring1.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        <a href="{{page.photodir}}ring1.png" itemprop="contentUrl" data-size="1187x1187">
+          <img class="project-image" src="./{{page.photodir}}/thumb-ring1.png" itemprop="thumbnail" alt="Image of the ring I made" />
         </a>
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ring2.png" itemprop="contentUrl" data-size="1519x1519">
-          <img class="project-image" src="./ring/thumb-ring2.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        <a href="{{page.photodir}}ring2.png" itemprop="contentUrl" data-size="1519x1519">
+          <img class="project-image" src="{{page.photodir}}thumb-ring2.png" itemprop="thumbnail" alt="Image of the ring I made" />
         </a>
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ring3.png" itemprop="contentUrl" data-size="1174x1174">
-          <img class="project-image" src="./ring/thumb-ring3.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        <a href="{{page.photodir}}ring3.png" itemprop="contentUrl" data-size="1174x1174">
+          <img class="project-image" src="{{page.photodir}}thumb-ring3.png" itemprop="thumbnail" alt="Image of the ring I made" />
         </a>
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ring4.png" itemprop="contentUrl" data-size="1200x1201">
-          <img class="project-image" src="./ring/thumb-ring4.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        <a href="{{page.photodir}}ring4.png" itemprop="contentUrl" data-size="1200x1201">
+          <img class="project-image" src="{{page.photodir}}thumb-ring4.png" itemprop="thumbnail" alt="Image of the ring I made" />
         </a>
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./ring/ring5.png" itemprop="contentUrl" data-size="1381x1381">
-          <img class="project-image" src="./ring/thumb-ring5.png" itemprop="thumbnail" alt="Image of the ring I made" />
+        <a href="{{page.photodir}}ring5.png" itemprop="contentUrl" data-size="1381x1381">
+          <img class="project-image" src="{{page.photodir}}thumb-ring5.png" itemprop="thumbnail" alt="Image of the ring I made" />
         </a>
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>

@@ -7,6 +7,7 @@ desc: I wanted to try to make mug out of bamboo. So here is my try
 keyVal: 3.2
 year: 2016-2018
 type: 2
+photodir: "./bamboomugs/"
 ---
 <p>To make this mugs, I got the bamboo from Martinique, as I've been here for holidays.</p>
 
@@ -17,20 +18,20 @@ type: 2
 <p>Here is a Lion :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/lion1.png" itemprop="contentUrl" data-size="1464x2094">
-          <img class="project-image" src="./bamboomugs/thumb-lion1.png" itemprop="thumbnail" alt="Drawing of the lion" />
+        <a href="{{page.photodir}}lion1.png" itemprop="contentUrl" data-size="1464x2094">
+          <img class="project-image" src="{{page.photodir}}thumb-lion1.png" itemprop="thumbnail" alt="Drawing of the lion" />
         </a>
         <figcaption itemprop="caption description">Drawing of the lion</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/lion2.png" itemprop="contentUrl" data-size="1692x2736">
-          <img class="project-image" src="./bamboomugs/thumb-lion2.png" itemprop="thumbnail" alt="Drawing of the lion" />
+        <a href="{{page.photodir}}lion2.png" itemprop="contentUrl" data-size="1692x2736">
+          <img class="project-image" src="{{page.photodir}}thumb-lion2.png" itemprop="thumbnail" alt="Drawing of the lion" />
         </a>
         <figcaption itemprop="caption description">Drawing of the lion</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/lion3.png" itemprop="contentUrl" data-size="1836x2960">
-          <img class="project-image" src="./bamboomugs/thumb-lion3.png" itemprop="thumbnail" alt="Drawing of the lion pyrographied" />
+        <a href="{{page.photodir}}lion3.png" itemprop="contentUrl" data-size="1836x2960">
+          <img class="project-image" src="{{page.photodir}}thumb-lion3.png" itemprop="thumbnail" alt="Drawing of the lion pyrographied" />
         </a>
         <figcaption itemprop="caption description">Drawing of the lion pyrographied</figcaption>
     </figure>
@@ -38,14 +39,14 @@ type: 2
 <p>Here is a bear :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/ours1.png" itemprop="contentUrl" data-size="1371x1598">
-          <img class="project-image" src="./bamboomugs/thumb-ours1.png" itemprop="thumbnail" alt="Drawing of the bear" />
+        <a href="{{page.photodir}}ours1.png" itemprop="contentUrl" data-size="1371x1598">
+          <img class="project-image" src="{{page.photodir}}thumb-ours1.png" itemprop="thumbnail" alt="Drawing of the bear" />
         </a>
         <figcaption itemprop="caption description">Drawing of the bear</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/ours2.png" itemprop="contentUrl" data-size="2046x1836">
-          <img class="project-image" src="./bamboomugs/thumb-ours2.png" itemprop="thumbnail" alt="Drawing of the bear pyrographied" />
+        <a href="{{page.photodir}}ours2.png" itemprop="contentUrl" data-size="2046x1836">
+          <img class="project-image" src="{{page.photodir}}thumb-ours2.png" itemprop="thumbnail" alt="Drawing of the bear pyrographied" />
         </a>
         <figcaption itemprop="caption description">Drawing of the bear pyrographied</figcaption>
     </figure>
@@ -53,14 +54,14 @@ type: 2
 <p>Here is a wolf :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/wolf2.png" itemprop="contentUrl" data-size="2029x1785">
-          <img class="project-image" src="./bamboomugs/thumb-wolf2.png" itemprop="thumbnail" alt="Drawing of the wolf" />
+        <a href="{{page.photodir}}wolf2.png" itemprop="contentUrl" data-size="2029x1785">
+          <img class="project-image" src="{{page.photodir}}thumb-wolf2.png" itemprop="thumbnail" alt="Drawing of the wolf" />
         </a>
         <figcaption itemprop="caption description">Drawing of the wolf</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./bamboomugs/wolf1.png" itemprop="contentUrl" data-size="499x862">
-          <img class="project-image" src="./bamboomugs/thumb-wolf1.png" itemprop="thumbnail" alt="Drawing of the wolf pyrographied" />
+        <a href="{{page.photodir}}wolf1.png" itemprop="contentUrl" data-size="499x862">
+          <img class="project-image" src="{{page.photodir}}thumb-wolf1.png" itemprop="thumbnail" alt="Drawing of the wolf pyrographied" />
         </a>
         <figcaption itemprop="caption description">Drawing of the wolf pyrographied</figcaption>
     </figure>

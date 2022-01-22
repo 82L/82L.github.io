@@ -7,6 +7,7 @@ desc: A rustic wooden pint, made from a log. I tried it because of a YouTube vid
 keyVal: 2.5
 year: 2017
 type: 2
+photodir : "./rusticpint/"
 ---
 This project was inspired by <a href="https://www.youtube.com/watch?v=ehsMshn5rto">this YouTube video</a>, and I tried to do my own.
 
@@ -18,20 +19,20 @@ But I managed to find a log of wood suiting my taste to retry it in the near fut
 
 <div class="project-gallery" itemscope itemtype="http://schema.org/ImageGallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./rusticpint/rusticpint1.png" itemprop="contentUrl" data-size="2880x1620">
-          <img class="project-image" src="./rusticpint/thumb-rusticpint1.png" itemprop="thumbnail" alt="A photo of the pint" />
+        <a href="{{page.photodir}}rusticpint1.png" itemprop="contentUrl" data-size="2880x1620">
+          <img class="project-image" src="{{page.photodir}}thumb-rusticpint1.png" itemprop="thumbnail" alt="A photo of the pint" />
         </a>
         <figcaption itemprop="caption description">A photo of the pint</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./rusticpint/rusticpint2.png" itemprop="contentUrl" data-size="3033x1706">
-          <img class="project-image" src="./rusticpint/thumb-rusticpint2.png" itemprop="thumbnail" alt="A photo of the pint" />
+        <a href="{{page.photodir}}rusticpint2.png" itemprop="contentUrl" data-size="3033x1706">
+          <img class="project-image" src="{{page.photodir}}thumb-rusticpint2.png" itemprop="thumbnail" alt="A photo of the pint" />
         </a>
         <figcaption itemprop="caption description">A photo of the pint</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="./rusticpint/rusticpint3.png" itemprop="contentUrl" data-size="2754x1549">
-          <img class="project-image" src="./rusticpint/thumb-rusticpint3.png" itemprop="thumbnail" alt="A photo of the pint" />
+        <a href="{{page.photodir}}rusticpint3.png" itemprop="contentUrl" data-size="2754x1549">
+          <img class="project-image" src="{{page.photodir}}thumb-rusticpint3.png" itemprop="thumbnail" alt="A photo of the pint" />
         </a>
         <figcaption itemprop="caption description">A photo of the pint</figcaption>
     </figure>
