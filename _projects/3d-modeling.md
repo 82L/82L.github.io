@@ -18,7 +18,7 @@ photodir : "./blender/"
     <li>A GameBoy</li>
 </ol>
 <p>I worked on each of the textures. The visuals of the can aren't mine. I just adapted them for my purpose</p>
-<p>The textures of the GameBoy, the table, and the watch were made using Substance. The GameBoy took me the longest time, as I loved the idea of dirtying it a lot, and doing it smartly.</p>
+<p>The textures of the GameBoy, the table, and the watch were made using Substance. The GameBoy took me the longest time, as I loved the idea of dirtying it a lot, and doing it realistically.</p>
 <p>Here is the differents renders :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
