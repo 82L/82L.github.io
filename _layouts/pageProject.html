@@ -11,14 +11,25 @@
             <div class="text-content">
                 <div class="common-block">
                     <h2>{{ page.name }}</h2>
+                    <div class="block-desc">
+                        <div>
                     <p class="year-block">{{ page.year}}</p>
                     <p class="short-desc">{{page.desc}}</p>
+                        </div>
+
+                    {%if page.photodir %}
+                    <p class="pictures-header">Click on the pictures to see them in fullscreen</p>
+                    {% endif %}
+                    </div>
+                    <div class="block-links">
                     {% if page.itchio %}
                     <a target="_blank" class="foreign-link" href="{{ page.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
                     {% if page.repo %}
                     <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
                     {% endif %}
+                    </div>
+
                 </div>
                 {{content}}
             </div>

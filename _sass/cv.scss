@@ -57,11 +57,26 @@
 }
 .short-desc {
   font-style: italic;
+  margin-bottom: 0;
+}
+.block-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.pictures-header{
+  align-self: flex-end;
+  font-style: italic;
+  margin-bottom: 0;
+  line-height: 2em;
+}
+.block-links{
+  margin-top: 10px;
 }
 .foreign-link{
   border: solid 1px;
   border-radius: 50vh;
-  padding: 5px;
+  padding: 7px;
+
 }
 .common-block{
   margin-bottom: 30px;
