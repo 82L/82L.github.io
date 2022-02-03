@@ -33,16 +33,18 @@ robots: noindex
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>&emsp;&emsp;  
-              <div style="height: 10px;"></div>
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>&emsp;&emsp;
+<!--              <div style="height: 10px;"></div>-->
             </div>
             {% endif %}
+            <div class="block-links">
             {% if project.itchio %}
                 <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
               {% endif %}
             {% if project.repo %}
               <a target="_blank" class="foreign-link"  href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
             {% endif %}
+            </div>
         </div>
         </div>
       </li>
@@ -77,15 +79,17 @@ robots: noindex
             <a target="_blank" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
             <a target="_blank" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
             <a target="_blank" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>&emsp;&emsp;
-            <div style="height: 10px;"></div>
+<!--            <div style="height: 10px;"></div>-->
           </div>
           {% endif %}
+          <div class="block-links">
           {% if work.link %}
           <a target="_blank" class="foreign-link" href="{{ work.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
           {% endif %}
           {% if work.repo %}
           <a target="_blank" class="foreign-link" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
           {% endif %}
+          </div>
         </div>
       </div>
     </li>
