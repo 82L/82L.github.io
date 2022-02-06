@@ -1,0 +1,29 @@
+---
+layout: "pageProject"
+title:  "Editup"
+name: Editup
+gh_user: D0O0N
+repo: Editup-Game
+img: images/runner.png
+itchio: https://82l.itch.io/editup
+desc: Unity Project made with my whole class during my master. <br/>gIf you want to access it, please <a href="https://82l.github.io/#mail" alt="link to the message form">send me a message to get a code.</a>
+keyVal: 7
+year: 2021
+type: 1
+---
+<p>This software is a demo of an elearning software about salesmanship.</p>
+
+<p>It  was made as the subject of a course about team management and rendering a demo.<br/>
+We worked on this as a full class of 15 students, in a timeline of a few weeks. Not at fulltime, as we got other projects.</p>
+
+<p>What was given to us was all the documents to create this software : the lessons, the exercises, the scripts for the visual novels.</p>
+
+<p>What we made was : The AD, the Game Design of the exercises, the expressions according to the sentences of the VNs, the different additional texts, the programming.</p>
+
+<p>As we were in a time rush, the AD is heavily inspired from the artist Suumo.</p>
+
+<p>In this project I worked as the lead in the writing team, and one of the game designer.</p>
+<p>The job was tough, as I often got needed on the two posts at the same time. And in the writing team, I got as a subordinate one of the project manager. So there was some conflict due to the diverging statuses, and some info wasn't passed correctly. In retrospective, we should have put the project manager as the lead in the writing team</p>
+
+<p>I also work on the webgl adaptation of this project : Some screens weren't adapted to be on lower resolution, and some JSON data was inaccessible due to the method used to access it.</p>
+<p>The webgl version isn't perfect. There is still some bugs. But I managed to make it work in a minimum amount of time</p>
