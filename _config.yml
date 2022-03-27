@@ -10,6 +10,7 @@ font_awesome: 'ead88c3c69.js'
 collections:
   work_projects:
     output: true
+    sort_by: keyVal
   projects:
     output: true
     sort_by: keyVal

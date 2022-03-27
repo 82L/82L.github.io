@@ -1,10 +1,11 @@
 ---
 layout: "pageProject"
-title:  "Editup"
-name: Editup
+title:  "Serious Seller"
+name: "Serious Seller"
 gh_user: D0O0N
 repo: Editup-Game
-img: images/runner.png
+img: images/editup.png
+photodir: "./editup/"
 itchio: https://82l.itch.io/editup
 desc: Unity Project made with my whole class during my master. <br/>gIf you want to access it, please <a href="https://82l.github.io/#mail" alt="link to the message form">send me a message to get a code.</a>
 keyVal: 7

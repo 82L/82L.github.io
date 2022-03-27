@@ -56,7 +56,8 @@ robots: noindex
 <div id="work" class="content-element">
   <h2>Work Projects</h2>
     <ul class="timeline">
-    {% for work in site.work_projects %}
+      {% assign workprojects = site.work_projects | sort: "keyVal" | reverse %}
+    {% for work in  workprojects %}
 
     <li class="timeline-inverted">
       <div class="timeline-image">
