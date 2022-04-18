@@ -3,7 +3,7 @@ layout: "pageProject"
 title:  "Blender creation"
 name: "Blender creations"
 img: images/thumb-sceneTotalandCan.png
-desc: "Object I made in blender for one of my classes"
+desc: "Objects I made in blender for one of my classes"
 keyVal: 5.5
 year: 2021
 type: 4

@@ -45,6 +45,9 @@ projectTypes:
   - Forge:
     typedesc : "Show Forge Projects"
     id: 3
+  - Other:
+    typedesc : "Show Other Projects"
+    id: 5
 
 # Build settings
 destination: _site
