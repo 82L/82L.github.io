@@ -3,7 +3,7 @@
   name: Meli-Melo
   client: Grand Palais
   enterprise: Opixido
-  img: images/orleans.png
+  img: images/thumb-melimelo.png
   link : https://jeunepublic.grandpalais.fr/meli-melo/fr/la-mosaique-du-grand-palais/
   desc: The project was made for desktop and tablet.
   year: 2022
