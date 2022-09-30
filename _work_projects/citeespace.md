@@ -3,7 +3,7 @@
   name: Ma Cité de l'espace
   client: Cité de l'espace
   enterprise: Opixido
-  img: images/thumb-citeespace.png
+  img: images/citeespace.png
   apple : https://apps.apple.com/fr/app/ma-cit%C3%A9-de-lespace/id1637434112
   android : https://play.google.com/store/apps/details?id=com.opixido.citeespace&hl=fr&gl=FR
   desc: A visit companion for the City of space in Toulouse
