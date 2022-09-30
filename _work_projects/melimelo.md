@@ -10,7 +10,7 @@
   keyVal: 3
 ---
 <p>I worked on this project as a dev. I made the Backend and the Front End. </p>
-<p> The client can decline create a multitude of games declines thems in any forms he wants, by modifying the images, the color, the texts</p>
+<p> The client can create multiple games, and decline them in multiple forms, by modifying the images, the color, the texts</p>
 <p>The tricky part in this project was to make the design the responsiveness, as the interface is "non-standard", with a lot of different shapes. </p>
 <p>I'm quite proud of the animation on the game screen, as it is purely made of css.</p>
 
