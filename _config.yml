@@ -14,6 +14,9 @@ collections:
   projects:
     output: true
     sort_by: keyVal
+  misc_projects:
+    output: true
+    sort_by: keyVal
 #    label: work_projects
 
 
@@ -31,14 +34,8 @@ email_form: "https://docs.google.com/forms/d/e/1FAIpQLScMSpmmv4D43Xb78ooInG0cjRd
 gotProjects: true
 gotResume: true
 gotWork: true
-
+gotMisc: true
 projectTypes:
-  - VideoGame: 
-    typedesc: "Show Video Game Projects"
-    id: 1
-  - Infography:
-    typedesc: "Show Infography Projects"
-    id: 4
   - WoodWorking:
     typedesc : "Show WoodWorking Projects"
     id: 2

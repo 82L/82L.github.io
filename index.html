@@ -6,13 +6,13 @@ robots: noindex
 <!--<div class="main-post-list">-->
   {% if site.gotProjects %} 
 <div id="projects" class="content-element">
-  <h2>Personnal and students Projects</h2>
-    <select class="filter-list filter-type" name="types" id="type-select">
-    <option class="btn-type" value="0">Show All types of projects</option>
-      {% for projectType in site.projectTypes %}
-        <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>
-      {% endfor %}
-    </select>
+  <h2>Personnal and student IT projects</h2>
+<!--    <select class="filter-list filter-type" name="types" id="type-select">-->
+<!--    <option class="btn-type" value="0">Show All types of projects</option>-->
+<!--      {% for projectType in site.projectTypes %}-->
+<!--        <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>-->
+<!--      {% endfor %}-->
+<!--    </select>-->
 
   <ul class="timeline" id="projectTimeline">
     {% assign myprojects = site.projects | sort: "keyVal" | reverse %}
@@ -40,6 +40,12 @@ robots: noindex
             <div class="block-links">
             {% if project.itchio %}
                 <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+              {% endif %}
+              {% if project.android %}
+              <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+              {% endif %}
+              {% if project.apple %}
+              <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
               {% endif %}
             {% if project.repo %}
               <a target="_blank" class="foreign-link"  href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
@@ -87,9 +93,69 @@ robots: noindex
           {% if work.link %}
           <a target="_blank" class="foreign-link" href="{{ work.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
           {% endif %}
+            {% if project.android %}
+            <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if project.apple %}
+            <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
+            {% endif %}
           {% if work.repo %}
           <a target="_blank" class="foreign-link" href="https://github.com/{{ work.gh_user }}/{{ work.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
           {% endif %}
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% if site.gotMisc %}
+<div id="misc" class="content-element">
+  <h2>Personnal misc Projects</h2>
+  <select class="filter-list filter-type" name="types" id="type-misc-select">
+    <option class="btn-type" value="0">Show All types of projects</option>
+    {% for projectType in site.projectTypes %}
+    <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>
+    {% endfor %}
+  </select>
+
+  <ul class="timeline" id="miscProjectTimeline">
+    {% assign myprojects = site.misc_projects | sort: "keyVal" | reverse %}
+    {% for project in myprojects %}
+
+    <li class="timeline-inverted" data-type="0;{{project.type}}" data-filterType="true">
+      <div class="timeline-image">
+        <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4><a href="{{ project.url }}">{{ project.name }}</a></h4>
+        </div>
+        <div class="timeline-body">
+          {{ project.year | markdownify }}
+          {{ project.desc | markdownify }}
+          {% if project.repo %}
+          <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+            <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+            <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+            <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>&emsp;&emsp;
+            <!--              <div style="height: 10px;"></div>-->
+          </div>
+          {% endif %}
+          <div class="block-links">
+            {% if project.itchio %}
+            <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if project.android %}
+            <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if project.apple %}
+            <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if project.repo %}
+            <a target="_blank" class="foreign-link"  href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+            {% endif %}
           </div>
         </div>
       </div>

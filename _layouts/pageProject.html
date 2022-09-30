@@ -25,6 +25,12 @@
                     {% if page.itchio %}
                     <a target="_blank" class="foreign-link" href="{{ page.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
+                        {% if project.android %}
+                        <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+                        {% endif %}
+                        {% if project.apple %}
+                        <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
+                        {% endif %}
                     {% if page.repo %}
                     <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
                     {% endif %}

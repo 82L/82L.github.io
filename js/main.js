@@ -49,6 +49,11 @@ $(document).ready(function () {
           // $('#mail').scrollIntoView();
           return;
         }
+        else if(self.open != 'misc' && $(this).hasClass('work-button')){
+            self.open="misc";
+            // $('#mail').scrollIntoView();
+            return;
+        }
       //Retire les class
       $('.content-wrapper').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -76,6 +81,9 @@ $(document).ready(function () {
     }
     else if($(this).hasClass('work-button')){
       self.open="work";
+    }
+    else if($(this).hasClass('misc-button')){
+        self.open="misc";
     }
     //si c'est pas en train de montrer
     currentWidth = $('.panel-cover').width()
@@ -118,6 +126,13 @@ $(document).ready(function () {
     console.log(self.open)
     $('.work-button').addClass("active")
   }
+  if (window.location.hash && window.location.hash == '#misc') {
+        $('.panel-cover').addClass('panel-cover--collapsed')
+        $('.misc-button').click();
+        self.open="misc"
+        console.log(self.open)
+        $('.misc-button').addClass("active")
+    }
   if (window.location.hash && window.location.hash == '#cv') {
     $('.panel-cover').addClass('panel-cover--collapsed')
     $('.cv-button').click();
@@ -145,6 +160,12 @@ $(document).ready(function () {
   $('.navigation-wrapper .projects-button').click(function () {
     toggleMobileMenu();
   })
+    $('.navigation-wrapper .work-button').click(function () {
+        toggleMobileMenu();
+    })
+    $('.navigation-wrapper .misc-button').click(function () {
+        toggleMobileMenu();
+    })
   $('.navigation-wrapper .cv-button').click(function () {
     toggleMobileMenu();
   })

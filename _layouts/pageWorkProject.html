@@ -16,6 +16,12 @@
                     {% if page.link %}
                     <a target="_blank" class="foreign-link" href="{{ page.link }}"><i class="fas fa-link"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
+                    {% if project.android %}
+                    <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+                    {% endif %}
+                    {% if project.apple %}
+                    <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
+                    {% endif %}
                     {% if page.repo %}
                     <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
                     {% endif %}
