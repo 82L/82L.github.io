@@ -1,7 +1,12 @@
+- name: Ingénieur IEM
+  subtitle: Informatique et Multimédia
+  university: CNAM-ENJMIN
+  obtention_year: In progress
+
 - name: Master AMINJ
   subtitle: Audiovisuel, Médias Interactifs Numériques, Jeux
   university: Institut National Universitaire Champollion - Albi
-  obtention_year: In Progress
+  obtention_year: 2022
 
 - name: Licence Informatique
   university: Université Toulouse 3 - Paul Sabatier
