@@ -197,7 +197,7 @@ $(".filter-type").trigger("change");
  //filtring all, in fonction of the data obj
  function filterList (idToSearch, dataObj, idObj) {
   const self = this;
-  let list = $("#projectTimeline").children("li");
+  let list = $("#miscProjectTimeline").children("li");
   for (object of list) {
       let idArray = object.dataset[idObj].split(";");
       if (idArray.indexOf(idToSearch) > -1) {
