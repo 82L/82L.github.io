@@ -1,14 +1,20 @@
 ---
-  layout: "pageWorkProject"
-  name: Ma Cité de l'espace
+  layout: "pageProject"
+  name: "Ma Cité de l'espace"
+  title: "Ma Cité de l'espace"
   client: Cité de l'espace
   enterprise: Opixido
   img: images/citeespace.png
   apple : https://apps.apple.com/fr/app/ma-cit%C3%A9-de-lespace/id1637434112
   android : https://play.google.com/store/apps/details?id=com.opixido.citeespace&hl=fr&gl=FR
   desc: A visit companion for the City of space in Toulouse
-  year: 2022
+  year: 08/2022
   keyVal: 4
+  display: true
+  technologies: PHP, Ionic Capacitor, Node.js, JQuery
+  format: Mobile application
+  role: "Dev, Design critic"
+  video: videos/citeespace_1.mp4
 ---
 <p>This application is a visit companion. The goal of this app is to present the activities of City of space, and accompany the user in his visit.</p>
 <p>The data inside the app is managed with a CMS based on Opixido proprietary CMS</p>

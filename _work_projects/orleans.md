@@ -1,14 +1,20 @@
 ---
-  layout: "pageWorkProject"
+  layout: "pageProject"
   name: Une Soirée chez le Duc d'Orléans
+  title: Une Soirée chez le Duc d'Orléans
   client: Musée Ingres Bourdelle
   enterprise: Opixido
   img: images/orleans.png
   photodir: "./orleans/"
   link : https://museeingresbourdelle.com/visitevirtuelle_ducOrleans/
-  desc: The project was first made for a tablet, and then rapidly adapted for the web. I worked in this as a software developer.
-  year: 2021
+  desc: An interactive digital label for a painting.
+  year: 05/2021
   keyVal: 1
+  role: "Dev"
+  display: true
+  format: "Digital label"
+  technologies: Node.js, Cordova
+  video: videos/orleans.mp4
 ---
 <p>This project was made for the exposition: <a href="https://museeingresbourdelle.com/ferdinand-philippe-d'orleans" target="_blank">"Ferdinand Philippe d’Orléans (1810-1842). «Images d’un Prince idéal»"</a> </p>
 <p>The goal was to make the user go inside the main paint, and explore the different paintings inside it</p>

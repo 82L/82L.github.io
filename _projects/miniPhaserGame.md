@@ -1,15 +1,21 @@
 ---
   layout: "pageProject"
-  title:  "Casual Phaser Game"
-  name: A tower build game with Phaser
+  title:  "A tower build game"
+  name: A tower build game
   gh_user: 82L
   repo: 
   img: images/phaser.png
   itchio: https://82l.itch.io/a-phaser-building-tower-game
-  desc: End class project in phaser of the code class meant to give everyone a basis of code for my Master.
+  desc: Assignment to do a casual game for a coding class.
   keyVal: 4
   year: 2020
   type: 1
+  school: Master AMINJ
+  format: Video game
+  technologies: Phaser.js
+  role: "Designer, Dev"
+  display: true
+  video : videos/tower.mp4
 ---
 <p>That is one of my first game realisation.</p>
 <p>We where tasked to do a casual game, using the library PhaserJS</p>

@@ -7,6 +7,8 @@ desc: A wooden mediator I made to practice guitar.
 keyVal: 3.3
 year: 2017-2018
 type: 2
+display: true
+format: Wood
 photodir : "./mediators/"
 ---
 <div>

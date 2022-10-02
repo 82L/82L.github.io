@@ -1,14 +1,20 @@
 ---
-layout: "pageWorkProject"
+layout: "pageProject"
 name: PWA Le Front Ouest en Hauts-de-France
+title: PWA Le Front Ouest en Hauts-de-France
 client: Carrière Wellington
 enterprise: Opixido
 img: images/wellington.png
 photodir: "./wellington/"
 link : https://frontouest1418-hautsdefrance.com
-desc: This project was created as a mean to allow people to navigate between the differents places of WW1.
-year: 2021
+desc: A PWA to show the diverse places of memory for WW1 in the Somme.
+year: 03/2021
 keyVal: 2
+role: "Dev"
+display: true
+format: "PWA"
+technologies: Node.js
+video: videos/wellington.mp4
 ---
 <p>I worked in this project as a front end dev. But I wasn't tasked to do the styling. 
 I was involved in the creation of the DOM and the JS mechanics needed to allow the user interactions with the PWA.</p>

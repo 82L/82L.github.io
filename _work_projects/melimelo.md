@@ -1,13 +1,19 @@
 ---
-  layout: "pageWorkProject"
+  layout: "pageProject"
   name: Meli-Melo
+  title: Méli-Mélo
   client: Grand Palais
   enterprise: Opixido
   img: images/thumb-melimelo.png
   link : https://jeunepublic.grandpalais.fr/meli-melo/fr/la-mosaique-du-grand-palais/
-  desc: The project was made for desktop and tablet.
-  year: 2022
+  desc: A game website backed by a CMS to create multiple games, based on content.
+  year: 04/2022
   keyVal: 3
+  role: "Dev"
+  format: "Game website"
+  technologies: PHP, JQuery
+  display: true
+  video: videos/melimelo.mp4
 ---
 <p>I worked on this project as a dev. I made the Backend and the Front End. </p>
 <p> The client can create multiple games, and decline them in multiple forms, by modifying the images, the color, the texts</p>

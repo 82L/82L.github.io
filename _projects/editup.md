@@ -7,15 +7,22 @@ repo: Editup-Game
 img: images/editup.png
 photodir: "./editup/"
 itchio: https://82l.itch.io/editup
-desc: Unity Project made with my whole class during my master. <br/>gIf you want to access it, please <a href="https://82l.github.io/#mail" alt="link to the message form">send me a message to get a code.</a>
+desc: Whole class assignment to create an e-learning software.
 keyVal: 7
+technologies: Unity
 year: 2021
 type: 1
----
-<p>This software is a demo of an elearning software about salesmanship.</p>
+school: Master AMINJ
+display: true
+format: E-learning prototype
+role: "Game Designer, Narrative technician"
+video: videos/seriousseller_1.mp4
 
-<p>It  was made as the subject of a course about team management and rendering a demo.<br/>
-We worked on this as a full class of 15 students, in a timeline of a few weeks. Not at fulltime, as we got other projects.</p>
+---
+<p>This software is a demo of an e-learning software about salesmanship.</p>
+
+<p>It was made to structure a course about team management and rendering a demo.<br/>
+We worked on this as a full class of 15 students, in a timeline of a few weeks. Not at full-time, as we got other projects.</p>
 
 <p>What was given to us was all the documents to create this software : the lessons, the exercises, the scripts for the visual novels.</p>
 

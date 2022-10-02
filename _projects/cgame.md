@@ -9,6 +9,8 @@
   keyVal: 1
   year: 2015
   type: 1
+  school: Licence Informatique
+  technologies: Phaser.js
 ---
 <p> This project was about making a simple map. Where the user could move. With different elements on it:</p>
 <ul>

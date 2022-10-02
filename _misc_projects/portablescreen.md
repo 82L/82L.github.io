@@ -7,6 +7,8 @@ desc: "A tentative to make a portable screen"
 keyVal: 6.5
 year: 2021
 type: 5
+display: true
+format: Other
 photodir : "./portablescreen/"
 ---
 <p>As I was switching a lot between Paris and Albi, I tried to make a portable screen. As I wanted to have a dual display everywhere I'd go.</p>

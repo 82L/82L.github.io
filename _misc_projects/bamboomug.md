@@ -7,6 +7,8 @@ desc: I wanted to try to make mug out of bamboo. So here is my try
 keyVal: 3.2
 year: 2016-2018
 type: 2
+display: true
+format: Wood
 photodir: "./bamboomugs/"
 ---
 <p>To make this mugs, I got the bamboo from Martinique, as I've been here for holidays.</p>

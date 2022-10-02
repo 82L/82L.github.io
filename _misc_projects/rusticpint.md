@@ -7,6 +7,8 @@ desc: A rustic wooden pint, made from a log. I tried it because of a YouTube vid
 keyVal: 2.5
 year: 2017
 type: 2
+display: true
+format: Wood
 photodir : "./rusticpint/"
 ---
 This project was inspired by <a href="https://www.youtube.com/watch?v=ehsMshn5rto">this YouTube video</a>, and I tried to do my own.

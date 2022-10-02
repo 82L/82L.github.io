@@ -1,15 +1,20 @@
 ---
 layout: "pageProject"
-title:  "Illustrator and Photoshop creation"
-name: "Illustrator and Photoshop creation"
+title:  "Game interface mockup"
+name: "Game interface mockup"
 img: images/thumb-MockupEvaluation.png
-desc: "Illustrator and Photoshop projects made for a class"
+desc: Final assignment of infography course
 keyVal: 4.5
 year: 2020
 type: 4
 photodir : "./infography/"
+school: Master AMINJ
+display: true
+format: Infography
+technologies: Illustrator, Photoshop
+
 ---
-<p>This is the final project of a class I followed to learn how to use Photoshop and Illustrator during my master</p>
+<p>This is final assignment of a class I followed to learn how to use Photoshop and Illustrator during my master</p>
 <p>We were asked to do a game interface, and then do a mockup with it in a scene. We were tasked to show our skills</p>
 <p>I killed to bird in one stone, as I was already working for the Blake and Mortimer video game project. I needed a cover for it, and I already did the research about the serials.</p>
 <p>The design of the plane is completely taken from a drawing of the comics (credits to the rightful owners). I only added the planes in the background.</p>

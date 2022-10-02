@@ -7,6 +7,8 @@ desc: A tentative to reproduce a ring I found in Taiwan
 keyVal: 3.5
 year: 2020
 type: 3
+display: true
+format: Metal
 photodir : "./ring/"
 ---
 <div>
