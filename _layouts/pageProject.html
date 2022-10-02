@@ -4,45 +4,94 @@
 
 <body>
 <div class="body-content">
-    {% include header.html %}
-
-    <div class="content-wrapper showing">
-        <div class="content-wrapper__inner">
-            <div class="text-content">
-                <div class="common-block">
-                    <h2>{{ page.name }}</h2>
-                    <div class="block-desc">
-                        <div>
-                    <p class="year-block">{{ page.year}}</p>
-                    <p class="short-desc">{{page.desc}}</p>
-                        </div>
-
-                    {%if page.photodir %}
-                    <p class="pictures-header">Click on the pictures to see them in fullscreen</p>
-                    {% endif %}
-                    </div>
-                    <div class="block-links">
-                    {% if page.itchio %}
-                    <a target="_blank" class="foreign-link" href="{{ page.itchio }}"><i class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
-                    {% endif %}
-                        {% if project.android %}
-                        <a target="_blank" class="foreign-link" href="{{ project.android }}"><i class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
-                        {% endif %}
-                        {% if project.apple %}
-                        <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
-                        {% endif %}
-                    {% if page.repo %}
-                    <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.repo }}"><i class="fab fa-github"></i><span class="watchers"> Repository</span></a>
-                    {% endif %}
-                    </div>
-
-                </div>
-                {{content}}
+    {% include menu.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="project-title">{{ page.name }}</h1>
             </div>
+
         </div>
 
-        {% include footer.html %}
+        <div class="block-desc">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+
+
+                    <p class="year-block">
+                        {{ page.year }}
+                        {% if page.year and page.enterprise %} - {% endif %}
+                        {% if page.year and page.school %} - {% endif %}
+                        {{ page.enterprise }}{{ page.school }}
+                    </p>
+                    <div class="card__header-details">
+                        <ul>
+                            {% if page.client %}
+                            <li><strong>Client : </strong>{{ page.client }}</li>
+                            {% endif %}
+                            {% if project.format %}
+                            <li><strong>Type : </strong>{{ page.format }}</li>
+                            {% endif %}
+                            {% if page.technologies %}
+                            <li><strong>Tech : </strong>{{ page.technologies }}</li>
+                            {% endif %}
+                            {% if page.role %}
+                            <li><strong>Role : </strong>{{ page.role }}</li>
+                            {% endif %}
+                        </ul>
+
+
+                    </div>
+                    <p class="short-desc">{{ page.desc }}</p>
+                </div>
+
+                {%if page.photodir %}
+                <div class="col-12 col-lg-4 text-right align-items-end position-relative">
+                    <p class="pictures-header bottom-0 end-0">Click on the pictures to see them in fullscreen</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="block-links">
+            {% if page.itchio %}
+            <a target="_blank" class="foreign-link" href="{{ page.itchio }}"><i class="fab fa-itch-io"></i><span
+                    class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if page.link %}
+            <a target="_blank" class="foreign-link" href="{{ project.link }}"><i
+                    class="fas fa-link"></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if page.android %}
+            <a target="_blank" class="foreign-link" href="{{ project.android }}"><i
+                    class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if page.apple %}
+            <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i
+                    class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
+            {% endif %}
+            {% if page.repo %}
+            <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.repo }}"><i
+                    class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+            {% endif %}
+        </div>
+        <hr class="panel-cover__divider text-center">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                {{content}}
+            </div>
+            {% if page.video %}
+            <div class="col-12 col-lg-4">
+                <video class="project-video" controls>
+                    <source src="{{ site.url }}/{{ page.video }}" type="video/mp4">
+                </video>
+            </div>
+            {% endif %}
+        </div>
+
+
     </div>
+
+    {% include footer.html %}
 </div>
 {% if page.photodir %}
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
