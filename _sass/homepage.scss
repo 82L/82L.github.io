@@ -1,0 +1,33 @@
+:root{
+  --clear-text: #f1f1f1;
+  --card-bg: #FDFDFD;
+  --dark-text: #232323;
+  --primary-color: #e25440;
+  --primary-accentuation-color: #b9301c;
+  --card-radius: 15px
+}
+body{
+  width: 100%;
+  color: var(--dark-text);
+  background-color: var(--clear-text);
+}
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
+p{
+
+
+}
+
+.content-element{
+  margin-top: 40px;
+}
+.footer{
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.footer__copyright{
+  padding-left: 40px;
+}
