@@ -1,6 +1,6 @@
 # Site settings
-title: "82L's Portfolio"
-description: "Doing games, serious games and other things. Studying at the CNAM ENJMIN to be an Engineer in computing and multimedia"
+title: "82L Portfolio"
+description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an Engineer in computing and multimedia"
 url: 'https://82l.github.io'
 baseurl: ''
 profilepic: '/images/profile.png'
@@ -23,16 +23,16 @@ collections:
 
 author:
   name: '82L'
- # email: info@thomas-zuehlke.de
-#  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
+ # email:
+#  twitter_username:
+#  facebook_username:
   github_username:  82l
   itchio_username:  82l
 #  linkedin_username:  thomas-zühlke-889182165
 #  meetup_name: Azure-Meetup-Rostock-MV
 email_form: "https://docs.google.com/forms/d/e/1FAIpQLScMSpmmv4D43Xb78ooInG0cjRd5D1UqQsPOlAbQrypOmXA9FA/viewform?embedded=true"
 gotProjects: true
-gotResume: true
+#gotResume: true
 gotWork: true
 gotMisc: true
 projectTypes:
