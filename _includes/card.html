@@ -73,9 +73,13 @@
                             class="fab fa-brands fa-apple"></i><span
                             class="watchers"> Test it</span></a>
                     {% endif %}
-                    {% if project.repo %}
-                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i
+                    {% if project.ghrepo %}
+                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.ghrepo }}"><i
                             class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+                    {% endif %}
+                    {% if project.glrepo %}
+                    <a target="_blank" class="foreign-link" href="https:///gitlab.com/{{ project.glrepo }}"><i
+                            class="fa-brands fa-gitlab"></i><span class="watchers"> Repository</span></a>
                     {% endif %}
                 </div>
             </div>

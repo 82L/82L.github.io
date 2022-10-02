@@ -3,7 +3,7 @@
   title:  "A tower build game"
   name: A tower build game
   gh_user: 82L
-  repo: 
+  ghrepo: 
   img: images/phaser.png
   itchio: https://82l.itch.io/a-phaser-building-tower-game
   desc: Assignment to do a casual game for a coding class.

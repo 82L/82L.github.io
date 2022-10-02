@@ -4,7 +4,7 @@
   name: Little game in C
   gh_user: 82L
   img: images/terminal.jpg
-  repo: Projet-Info-Jeu-C
+  ghrepo: Projet-Info-Jeu-C
   desc: First Game and big project, as a young programming student in C. I didn't even have a class about pointers.
   keyVal: 1
   year: 2015

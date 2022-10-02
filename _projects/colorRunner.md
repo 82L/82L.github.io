@@ -3,7 +3,7 @@
   title:  "Color Runner"
   name: Color Runner
   gh_user: 82L
-  repo: 
+  glrepo: colorrunner/colorrunner
   img: images/runner.png
   itchio: https://82l.itch.io/color-runner
   desc: Planning course assignment. An Endless Runner with a twist !

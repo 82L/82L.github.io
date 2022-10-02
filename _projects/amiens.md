@@ -3,7 +3,7 @@
   title:  "Visit of Amiens Cathedrale Transept"
   name: Visit of Amiens Cathedrale Transept
   gh_user: 82L
-  repo: AmiensTranseptCathedrale
+  ghrepo: AmiensTranseptCathedrale
   img: images/amiens.jpg
   itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
   desc: Project assignement to make the given model explorable.

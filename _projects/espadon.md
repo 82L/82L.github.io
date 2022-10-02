@@ -3,7 +3,7 @@
   title:  "Operation Espadon"
   name: Operation Espadon
   gh_user: 82L
-  repo: 
+  ghrepo: 
   img: images/espadon.png
   itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
   desc: Final assignment of Animate course

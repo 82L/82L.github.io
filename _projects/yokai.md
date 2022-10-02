@@ -3,7 +3,7 @@
   title:  "Digital Yokai No Mori"
   name: Digital Yokai No Mori
   gh_user: 82L
-  repo: Digital-Yokai-No-Mori
+  ghrepo: Digital-Yokai-No-Mori
   img: images/yokai.jpg
   desc: Digitization of the board game Yokai no Mori, licensed by Ferti.
   keyVal: 2

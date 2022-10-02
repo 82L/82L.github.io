@@ -3,7 +3,7 @@ layout: "pageProject"
 title:  "Serious Seller"
 name: "Serious Seller"
 gh_user: D0O0N
-repo: Editup-Game
+ghrepo: Editup-Game
 img: images/editup.png
 photodir: "./editup/"
 itchio: https://82l.itch.io/editup
