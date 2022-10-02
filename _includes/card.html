@@ -1,0 +1,85 @@
+{% if project.display %}
+
+<div class="col-12 col-lg-4">
+    <article class="card">
+        <a class="card-link" href="{{ project.url }}">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card__header-info">
+                        <h3>{{ project.title }}</h3>
+                        <p class="card__header-subtitle">
+                            {{project.year}}
+                            {% if project.year and project.enterprise %} - {% endif %}
+                            {% if project.year and project.school %} - {% endif %}
+                            {{ project.enterprise }}{{ project.school }}
+                        </p>
+                        <div class="card__header-details">
+                            <ul>
+                            {% if project.client %}
+                            <li><strong>Client : </strong>{{ project.client }}</li>
+                            {% endif %}
+                            {% if project.format %}
+                            <li><strong>Type : </strong>{{ project.format }}</li>
+                            {% endif %}
+                            {% if project.technologies %}
+                            <li><strong>Tech : </strong>{{ project.technologies }}</li>
+                            {% endif %}
+                            {% if project.role %}
+                            <li><strong>Role : </strong>{{ project.role }}</li>
+                            {% endif %}
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img class="card-img" src="{{ project.img | prepend: site.baseurl }}" alt=""/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-desc">
+                        {{ project.desc | markdownify }}
+                    </div>
+
+                </div>
+            </div>
+            {% if project.video %}
+            <div class="row">
+                <div class="col-12">
+                    <video class="card-video" controls>
+                        <source src="{{ project.video }}"  type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            {% endif %}
+            <div class="row">
+                <div class="col-12 text-center">
+                    {% if project.itchio %}
+                    <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i
+                            class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
+                    {% endif %}
+                    {% if project.link %}
+                    <a target="_blank" class="foreign-link" href="{{ project.link }}"><i
+                            class="fas fa-link"></i><span class="watchers"> Test it</span></a>
+                    {% endif %}
+                    {% if project.android %}
+                    <a target="_blank" class="foreign-link" href="{{ project.android }}"><i
+                            class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
+                    {% endif %}
+                    {% if project.apple %}
+                    <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i
+                            class="fab fa-brands fa-apple"></i><span
+                            class="watchers"> Test it</span></a>
+                    {% endif %}
+                    {% if project.repo %}
+                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}"><i
+                            class="fab fa-github"></i><span class="watchers"> Repository</span></a>
+                    {% endif %}
+                </div>
+            </div>
+        </a>
+    </article>
+</div>
+{% endif %}
