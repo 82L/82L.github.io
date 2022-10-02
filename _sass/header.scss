@@ -23,6 +23,17 @@
   padding: 0;
   flex-wrap: wrap;
 }
+.navigation--social .navigation__item{
+  width: 37px;
+  height: 37px;
+}
+.navigation--social .navigation__item a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .navigation__item a{
   text-decoration: none;
   color: var(--clear-text);
