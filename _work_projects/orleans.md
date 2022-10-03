@@ -9,7 +9,7 @@
   link : https://museeingresbourdelle.com/visitevirtuelle_ducOrleans/
   desc: An interactive digital label for a painting.
   year: 05/2021
-  keyVal: 1
+  keyVal: 202105
   role: "Dev"
   display: true
   format: "Digital label"

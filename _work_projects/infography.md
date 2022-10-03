@@ -6,7 +6,7 @@ img: images/thumb-MockupEvaluation.png
 desc: Final assignment of infography course
 keyVal: 4.5
 year: 2020
-type: 4
+type: 202012
 photodir : "./infography/"
 school: Master AMINJ
 display: true

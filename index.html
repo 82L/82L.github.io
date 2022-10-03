@@ -6,7 +6,7 @@ robots: noindex
 <!--<div class="main-post-list">-->
   {% if site.gotProjects %} 
 <div id="projects" class="content-element">
-  <h2>Personal and student IT projects</h2>
+  <h2>Game projects</h2>
 <!--    <select class="filter-list filter-type" name="types" id="type-select">-->
 <!--    <option class="btn-type" value="0">Show All types of projects</option>-->
 <!--      {% for projectType in site.projectTypes %}-->
@@ -24,7 +24,7 @@ robots: noindex
 {% endif %}
 {% if site.gotWork %}
 <div id="work" class="content-element">
-  <h2>Work Projects</h2>
+  <h2>Other IT Projects</h2>
   <div class="row">
     {% assign projects = site.work_projects | sort: "keyVal" | reverse %}
     {% for project in  projects %}

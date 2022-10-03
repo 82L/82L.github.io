@@ -7,7 +7,7 @@
   img: images/phaser.png
   itchio: https://82l.itch.io/a-phaser-building-tower-game
   desc: Assignment to do a casual game for a coding class.
-  keyVal: 4
+  keyVal: 202011
   year: 2020
   type: 1
   school: Master AMINJ

@@ -7,7 +7,7 @@
   img: images/runner.png
   itchio: https://82l.itch.io/color-runner
   desc: Planning course assignment. An Endless Runner with a twist !
-  keyVal: 6
+  keyVal: 202111
   year: 2021
   type: 1
   school: Master AMINJ

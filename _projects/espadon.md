@@ -7,7 +7,7 @@
   img: images/espadon.png
   itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
   desc: Final assignment of Animate course
-  keyVal: 5
+  keyVal: 202012
   year: 2020
   type: 1
   school: Master AMINJ

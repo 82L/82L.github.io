@@ -8,7 +8,7 @@
   android : https://play.google.com/store/apps/details?id=com.opixido.baladecontee
   desc: An audio guide application for visiting the "Auberge des Dauphins"
   year: 09/2022
-  keyVal: 5
+  keyVal: 202209
   display: true
   role : "Dev"
   technologies: Ionic Capacitor, node.js, JQuery

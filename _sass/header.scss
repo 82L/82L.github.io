@@ -99,21 +99,14 @@
   position: sticky;
   top:0;
   z-index: 10;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.homepage-default .navigation-menu{
   margin-top: -50px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
-.navigation-menu--page{
-  //height: 10px;
-  width: 100%;
-  background-color: var(--dark-text);
-  position: sticky;
-  top:0;
-  z-index: 10;
-  padding-top: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 .menu-container{
   position: relative;
 }

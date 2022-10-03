@@ -6,7 +6,7 @@
   ghrepo: Digital-Yokai-No-Mori
   img: images/yokai.jpg
   desc: Digitization of the board game Yokai no Mori, licensed by Ferti.
-  keyVal: 2
+  keyVal: 201712
   year: 2017
   type: 1
   role: Dev

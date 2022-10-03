@@ -9,7 +9,7 @@ photodir: "./wellington/"
 link : https://frontouest1418-hautsdefrance.com
 desc: A PWA to show the diverse places of memory for WW1 in the Somme.
 year: 03/2021
-keyVal: 2
+keyVal: 202103
 role: "Dev"
 display: true
 format: "PWA"

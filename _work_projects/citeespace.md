@@ -9,7 +9,7 @@
   android : https://play.google.com/store/apps/details?id=com.opixido.citeespace&hl=fr&gl=FR
   desc: A visit companion for the City of space in Toulouse
   year: 08/2022
-  keyVal: 4
+  keyVal: 202208
   display: true
   technologies: PHP, Ionic Capacitor, Node.js, JQuery
   format: Mobile application

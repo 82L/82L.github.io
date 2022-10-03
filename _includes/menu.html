@@ -1,4 +1,4 @@
-<div class="navigation-menu--page">
+<div class="navigation-menu">
 
     <nav class="cover-navigation navigation--menu">
         <ul class="navigation">
@@ -8,15 +8,15 @@
                 <i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
             {% if site.gotProjects %}
             <li class="navigation__item"><a href="{{ site.baseurl }}/#projects"
-                                            title="link to Projects"
-                                            class="panel-button projects-button"><i
-                    class="fas fa-lg fa-file-code fa-lg"></i>&nbsp;Personal Projects</a></li>
+                                            title="link to game Projects"
+                                            class="panel-button projects-button">
+                <i class="fa-solid fa-gamepad"></i>&nbsp;Game Projects</a></li>
             {% endif %}
             {% if site.gotWork %}
             <li class="navigation__item"><a href="{{ site.baseurl }}/#work"
-                                            title="link to Work Projects"
+                                            title="link to Other IT Projects"
                                             class="panel-button work-button"><i
-                    class="fas fa-file-code fa-lg"></i>&nbsp;Work Projects</a></li>
+                    class="fas fa-file-code fa-lg"></i>&nbsp;Other IT Projects</a></li>
             {% endif %}
             {% if site.gotMisc %}
             <li class="navigation__item"><a href="{{ site.baseurl }}/#misc"

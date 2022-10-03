@@ -8,7 +8,7 @@ img: images/editup.png
 photodir: "./editup/"
 itchio: https://82l.itch.io/editup
 desc: Whole class assignment to create an e-learning software.
-keyVal: 7
+keyVal: 202112
 technologies: Unity
 year: 2021
 type: 1

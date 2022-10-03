@@ -7,7 +7,7 @@
   img: images/amiens.jpg
   itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
   desc: Project assignement to make the given model explorable.
-  keyVal: 3
+  keyVal: 201812
   year: 2018
   type: 1
   display: true
