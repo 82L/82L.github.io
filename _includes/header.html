@@ -155,19 +155,19 @@
                                             title="link to home page"
                                             class="panel-button home-button">
                 <i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
-            {% if site.gotWork %}
-            <li class="navigation__item"><a href="{{ site.baseurl }}/#work"
-                                            title="link to Work Projects"
-                                            class="panel-button work-button"><i
-                    class="fas fa-file-code fa-lg"></i>&nbsp;Work Projects</a></li>
-            {% endif %}
+
             {% if site.gotProjects %}
             <li class="navigation__item"><a href="{{ site.baseurl }}/#projects"
                                             title="link to Projects"
                                             class="panel-button projects-button"><i
                     class="fas fa-lg fa-file-code fa-lg"></i>&nbsp;Personal Projects</a></li>
             {% endif %}
-
+            {% if site.gotWork %}
+            <li class="navigation__item"><a href="{{ site.baseurl }}/#work"
+                                            title="link to Work Projects"
+                                            class="panel-button work-button"><i
+                    class="fas fa-file-code fa-lg"></i>&nbsp;Work Projects</a></li>
+            {% endif %}
             {% if site.gotMisc %}
             <li class="navigation__item"><a href="{{ site.baseurl }}/#misc"
                                             title="link to Misc Projects"

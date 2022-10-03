@@ -2,17 +2,7 @@
 layout: default
 robots: noindex
 ---
-{% if site.gotWork %}
-<div id="work" class="content-element">
-  <h2>Work Projects</h2>
-  <div class="row">
-    {% assign projects = site.work_projects | sort: "keyVal" | reverse %}
-    {% for project in  projects %}
-    {% include card.html %}
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
+
 <!--<div class="main-post-list">-->
   {% if site.gotProjects %} 
 <div id="projects" class="content-element">
@@ -32,7 +22,17 @@ robots: noindex
   </div>
 </div>
 {% endif %}
-
+{% if site.gotWork %}
+<div id="work" class="content-element">
+  <h2>Work Projects</h2>
+  <div class="row">
+    {% assign projects = site.work_projects | sort: "keyVal" | reverse %}
+    {% for project in  projects %}
+    {% include card.html %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 {% if site.gotMisc %}
 <div id="misc" class="content-element">
   <h2>Miscellaneous projects</h2>
