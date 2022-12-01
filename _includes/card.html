@@ -48,7 +48,7 @@
             {% if project.video %}
             <div class="row">
                 <div class="col-12">
-                    <video class="card-video" controls>
+                    <video preload="metadata" class="card-video" controls>
                         <source src="{{ project.video }}"  type="video/mp4">
                     </video>
                 </div>
