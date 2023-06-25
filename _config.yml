@@ -5,47 +5,47 @@ url: 'https://82l.github.io'
 baseurl: ''
 profilepic: '/images/profile.png'
 bkimage: '/images/bk1.jpg'
-#google_analytics: UA-XXXXXX-X
 font_awesome: 'ead88c3c69.js'
 collections:
-  work_projects:
+  projects:
+    id: projects
+    title: "Game projects"
+    keyVal: 1
     output: true
     sort_by: keyVal
-  projects:
+  work_projects:
+    id: work
+    title: "Other IT projects"
+    keyVal: 2
     output: true
     sort_by: keyVal
   misc_projects:
+    id: misc
+    title: "Miscellaneous projects"
+    keyVal: 3
     output: true
     sort_by: keyVal
-#    label: work_projects
 
 
 
 author:
   name: '82L'
   email: contacter82l@gmail.com
-#  twitter_username:
+  twitter_username: 82l_GameDev
 #  facebook_username:
   github_username:  82l
   gitlab_username:  82l
   itchio_username:  82l
-#  linkedin_username:  thomas-zühlke-889182165
-#  meetup_name: Azure-Meetup-Rostock-MV
-#email_form: "https://docs.google.com/forms/d/e/1FAIpQLScMSpmmv4D43Xb78ooInG0cjRd5D1UqQsPOlAbQrypOmXA9FA/viewform?embedded=true"
-gotProjects: true
-#gotResume: true
-gotWork: true
-gotMisc: true
+
+
 projectTypes:
-  - WoodWorking:
-    typedesc : "Show WoodWorking Projects"
+  - Professional:
+    typedesc : "Show professional projects"
+    id: 1
+  - Student:
+    typedesc : "Show student projects"
     id: 2
-  - Forge:
-    typedesc : "Show Forge Projects"
-    id: 3
-  - Other:
-    typedesc : "Show Other Projects"
-    id: 5
+
 
 # Build settings
 destination: _site

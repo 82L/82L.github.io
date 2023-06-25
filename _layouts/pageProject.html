@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="project-title">{{ page.name }}</h1>
+                <h1 class="project-title">{{ page.title }}</h1>
             </div>
 
         </div>
@@ -46,8 +46,8 @@
                 </div>
 
                 {%if page.photodir %}
-                <div class="col-12 col-lg-4 text-right align-items-end position-relative">
-                    <p class="pictures-header bottom-0 end-0">Click on the pictures to see them in fullscreen</p>
+                <div class="col-12 col-lg-4 text-right">
+                    <p class="pictures-header">Click on the pictures to see them in fullscreen</p>
                 </div>
                 {% endif %}
             </div>
@@ -69,8 +69,8 @@
             <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i
                     class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
             {% endif %}
-            {% if page.ghrepo %}
-            <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.ghrepo }}"><i
+            {% if page.gh_repo %}
+            <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.gh_repo }}"><i
                     class="fab fa-github"></i><span class="watchers"> Repository</span></a>
             {% endif %}
             {% if project.glrepo %}

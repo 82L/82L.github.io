@@ -4,53 +4,32 @@ robots: noindex
 ---
 
 <!--<div class="main-post-list">-->
-  {% if site.gotProjects %} 
-<div id="projects" class="content-element">
-  <h2>Game projects</h2>
-<!--    <select class="filter-list filter-type" name="types" id="type-select">-->
-<!--    <option class="btn-type" value="0">Show All types of projects</option>-->
-<!--      {% for projectType in site.projectTypes %}-->
-<!--        <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>-->
-<!--      {% endfor %}-->
-<!--    </select>-->
-
-  <div class="row">
-    {% assign projects = site.projects | sort: "keyVal" | reverse %}
-    {% for project in projects %}
-      {% include card.html %}
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
-{% if site.gotWork %}
-<div id="work" class="content-element">
-  <h2>Other IT Projects</h2>
-  <div class="row">
-    {% assign projects = site.work_projects | sort: "keyVal" | reverse %}
-    {% for project in  projects %}
-    {% include card.html %}
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
-{% if site.gotMisc %}
-<div id="misc" class="content-element">
-  <h2>Miscellaneous projects</h2>
-<!--  <select class="filter-list filter-type" name="types" id="type-misc-select">-->
-<!--    <option class="btn-type" value="0">Show All types of projects</option>-->
-<!--    {% for projectType in site.projectTypes %}-->
-<!--    <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>-->
-<!--    {% endfor %}-->
-<!--  </select>-->
-
-  <div class="row" id="miscProjectTimeline">
-    {% assign projects = site.misc_projects | sort: "keyVal" | reverse %}
-    {% for project in projects %}
-      {% include card.html %}
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
+{% assign collections = site.collections | sort: "keyVal" %}
+{% for collection in collections %}
+  {% assign posts = collection.label %}
+  {% if site[posts].size > 0 %}
+    <div id="{{ collection.id }}" class="content-element">
+      {% assign shippedProjects =  site[posts] | where: 'shipped', true %}
+      <h2>{{ site[posts] | size }} {{ collection.title }}
+        {% if shippedProjects.size > 0 %} - {{shippedProjects.size}} shipped projects{% endif %}
+      </h2>
+      {% if collection.id == "projects" %}
+        <select class="filter-list filter-type" name="types" id="type-select">
+          <option class="btn-type" value="0">Show all types of projects</option>
+          {% for projectType in site.projectTypes %}
+            <option class="btn-type" value="{{projectType.id}}">{{ projectType.typedesc }}</option>
+          {% endfor %}
+        </select>
+      {% endif %}
+      <div class="row {{ collection.id }}-projects">
+        {% assign projects = site[posts] | sort: "keyVal" | reverse %}
+        {% for project in projects %}
+          {% include card.html %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
 {% if site.email_form %} 
 <div id="mail" class="content-element">
   <!-- <h2>Test</h2> -->

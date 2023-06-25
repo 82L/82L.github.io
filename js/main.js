@@ -1,8 +1,9 @@
 ---
 layout: null
 sitemap:
-  exclude: 'yes'
+    exclude: 'yes'
 ---
+
 function toggleMobileMenu() {
   $('.navigation-wrapper').toggleClass('visible');
   $('.btn-mobile-menu__icon').toggleClass('hidden');
@@ -32,7 +33,7 @@ $(".filter-type").trigger("change");
  //filtring all, in fonction of the data obj
  function filterList (idToSearch, dataObj, idObj) {
   const self = this;
-  let list = $("#miscProjectTimeline").children("article");
+  let list = $(".projects-projects").children(".card-element");
   for (object of list) {
       let idArray = object.dataset[idObj].split(";");
       if (idArray.indexOf(idToSearch) > -1) {

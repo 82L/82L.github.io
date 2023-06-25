@@ -1,6 +1,6 @@
 {% if project.display %}
 
-<div class="col-12 col-lg-4">
+<div class="col-12 col-lg-4 card-element" data-type="0;{{project.type}}">
     <article class="card">
         <a class="card-link" href="{{ project.url }}">
             <div class="row">
@@ -11,25 +11,26 @@
                             {{project.year}}
                             {% if project.year and project.enterprise %} - {% endif %}
                             {% if project.year and project.school %} - {% endif %}
-                            {{ project.enterprise }}{{ project.school }}
+                            {{ project.enterprise }}{% if project.school %}School: {% endif %}{{ project.school }}
                         </p>
                         <div class="card__header-details">
                             <ul>
-                            {% if project.client %}
-                            <li><strong>Client : </strong>{{ project.client }}</li>
-                            {% endif %}
-                            {% if project.format %}
-                            <li><strong>Type : </strong>{{ project.format }}</li>
-                            {% endif %}
-                            {% if project.technologies %}
-                            <li><strong>Tech : </strong>{{ project.technologies }}</li>
-                            {% endif %}
-                            {% if project.role %}
-                            <li><strong>Role : </strong>{{ project.role }}</li>
-                            {% endif %}
+                                {% if project.client %}
+                                    <li><strong>Client : </strong>{{ project.client }}</li>
+                                {% endif %}
+                                {% if project.format %}
+                                    <li><strong>Type : </strong>{{ project.format }}</li>
+                                {% endif %}
+                                {% if project.technologies %}
+                                    <li><strong>Tech : </strong>{{ project.technologies }}</li>
+                                {% endif %}
+                                {% if project.role %}
+                                    <li><strong>Role : </strong>{{ project.role }}</li>
+                                {% endif %}
+                                {% if project.shipped %}
+                                    <li><strong>Project shipped</strong></li>
+                                {% endif %}
                             </ul>
-
-
                         </div>
                     </div>
                 </div>
@@ -64,6 +65,10 @@
                     <a target="_blank" class="foreign-link" href="{{ project.link }}"><i
                             class="fas fa-link"></i><span class="watchers"> Test it</span></a>
                     {% endif %}
+                    {% if project.steam %}
+                    <a target="_blank" class="foreign-link" href="{{ project.steam }}"><i
+                            class="fab fa-brands fa-steam"></i><span class="watchers"> Steam Page</span></a>
+                    {% endif %}
                     {% if project.android %}
                     <a target="_blank" class="foreign-link" href="{{ project.android }}"><i
                             class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
@@ -73,8 +78,8 @@
                             class="fab fa-brands fa-apple"></i><span
                             class="watchers"> Test it</span></a>
                     {% endif %}
-                    {% if project.ghrepo %}
-                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.ghrepo }}"><i
+                    {% if project.gh_repo %}
+                    <a target="_blank" class="foreign-link" href="https://github.com/{{ project.gh_user }}/{{ project.gh_repo }}"><i
                             class="fab fa-github"></i><span class="watchers"> Repository</span></a>
                     {% endif %}
                     {% if project.glrepo %}
