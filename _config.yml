@@ -37,6 +37,9 @@ author:
   gitlab_username:  82l
   itchio_username:  82l
 
+gotWork: true
+gotProjects : true
+gotMisc : true
 
 projectTypes:
   - Professional:
