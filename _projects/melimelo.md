@@ -1,21 +1,22 @@
 ---
-  layout: "pageProject"
-  name: Meli-Melo
-  title: Méli-Mélo
-  client: Grand Palais
-  enterprise: Opixido
-  img: images/melimelonew.png
-  link : https://jeunepublic.grandpalais.fr/meli-melo/fr/la-mosaique-du-grand-palais/
-  desc: A "game" website backed by a CMS to create multiple games, based on content.
-  year: 04/2022
-  keyVal: 202204
-  role: "Dev"
-  format: "Game website"
-  technologies: PHP, JQuery
-  display: true
-  video: videos/melimelo.mp4
+layout: "pageProject"
+title: Méli-Mélo
+client: Grand Palais
+enterprise: Opixido
+img: images/melimelonew.png
+link : https://jeunepublic.grandpalais.fr/meli-melo/fr/la-mosaique-du-grand-palais/
+desc: A "game" website backed by a CMS to create multiple games, based on content.
+year: 04/2022
+keyVal: 2022.04
+role: "Developer"
+format: "Game website"
+technologies: PHP, JQuery
+display: true
+video: videos/melimelo.mp4
+type: 1
+shipped: true
 ---
-<p>I worked on this project as a dev. I worked on the CMS managing the data and the Front End. </p>
+<p>I worked on this project as a developer. I worked on the CMS managing the data and the Front End. </p>
 <p>This isn't a game very playful, but I wasn't involved in the design.</p>
 <p>The admin, via the CMS, can create multiple Meli-melo, with custom data and colors.</p>
 <p>He can choose how must fresco there is, with how much images composing it</p>

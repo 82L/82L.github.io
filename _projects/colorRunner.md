@@ -1,21 +1,20 @@
 ---
-  layout: "pageProject"
-  title:  "Color Runner"
-  name: Color Runner
-  gh_user: 82L
-  glrepo: colorrunner/colorrunner
-  img: images/runner.png
-  itchio: https://82l.itch.io/color-runner
-  desc: Planning course assignment. An Endless Runner with a twist !
-  keyVal: 202111
-  year: 2021
-  type: 1
-  school: Master AMINJ
-  display: true
-  technologies: Unity
-  format: Video game prototype
-  role: "Designer, Dev"
-  video: videos/runner.mp4
+layout: "pageProject"
+title:  "Color Runner"
+gh_user: 82L
+glrepo: colorrunner/colorrunner
+img: images/runner.png
+itchio: https://82l.itch.io/color-runner
+desc: Planning course assignment. An Endless Runner with a twist !
+keyVal: 2021.11
+year: 2021
+school: Master AMINJ
+display: true
+technologies: Unity
+format: Video game prototype
+role: "Designer, Developer"
+video: videos/runner.mp4
+type: 2
 ---
 <p>This project was done as a structure for a planning class, so the teacher could point out the problems in our workflow, and try to give us hardships as the client.</p>
 <p>The exact task was to do a runner, with a twist. I came up with the idea of the color-swapping gameplay.</p>

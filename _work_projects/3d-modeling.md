@@ -1,18 +1,17 @@
 ---
 layout: "pageProject"
 title:  "Blender creations"
-name: "Blender creations"
 img: images/thumb-sceneTotalandCan.png
 desc: "Assignments for blender course"
-keyVal: 202103
+keyVal: 2021.03
 year: 2021
-type: 4
 photodir : "./blender/"
 school: Master AMINJ
 format: 3D model
 technologies: Blender
 role: Modeling, texturing
 display: true
+type: 2
 ---
 <p>The purpose of the course was to learn how to use blender, and how to do 3D modeling of low-poly objects.</p>
 <p>In this context, I made a few objects, in order :</p>

@@ -1,23 +1,21 @@
 ---
 layout: "pageProject"
 title:  "Serious Seller"
-name: "Serious Seller"
 gh_user: D0O0N
-ghrepo: Editup-Game
+gh_repo: Editup-Game
 img: images/editup.png
 photodir: "./editup/"
 itchio: https://82l.itch.io/editup
 desc: Whole class assignment to create an e-learning software.
-keyVal: 202112
+keyVal: 2021.12
 technologies: Unity
 year: 2021
-type: 1
 school: Master AMINJ
 display: true
 format: E-learning prototype
 role: "Game Designer, Narrative technician"
 video: videos/seriousseller_1.mp4
-
+type: 2
 ---
 <p>This software is a demo of an e-learning software about salesmanship.</p>
 

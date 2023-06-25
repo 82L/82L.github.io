@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "A celtic-ish metal ring"
-name: A celtic-ish metal ring
 img: images/thumb-ring5.png
 desc: A tentative to reproduce a ring I found in Taiwan
-keyVal: 3.5
+keyVal: 2020.07
 year: 2020
-type: 3
 display: true
 format: Metal
 photodir : "./ring/"
+type: 3
 ---
 <div>
 <p> When I was in Taiwan as a Volunteer, I fell in love with that ring</p>

@@ -1,20 +1,19 @@
 ---
 layout: "pageProject"
 title:  "DOOM mini-game"
-name: DOOM mini-game
 gh_user: 82L
-ghrepo:
+gh_repo:
 img: images/doom.jpg
 desc: Project assignment to make a promotional mini-game, with first a MCQ, then a game with a leaderboard.
-keyVal: 202103
+keyVal: 2021.03
 year: 03/2021
-type: 1
 display: true
 technologies: Unity, Scorm
 format: Mini-game
-role: "Game Design, Project manager, Dev"
+role: "Game Design, Project manager, Developer"
 school: Master AMINJ
 video: videos/doom.mp4
+type: 2
 ---
 <p>This game was designed as part of a course.</p>
 <p>The goal was first to design a MCQ about the franchise chosen. 

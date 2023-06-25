@@ -1,21 +1,19 @@
 ---
-  layout: "pageProject"
-  title:  "Operation Espadon"
-  name: Operation Espadon
-  gh_user: 82L
-  ghrepo: 
-  img: images/espadon.png
-  itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
-  desc: Final assignment of Animate course
-  keyVal: 202012
-  year: 2020
-  type: 1
-  school: Master AMINJ
-  display: true
-  format: Video game
-  technologies: Animate
-  video: videos/espadon.mp4
-  role: "Designer, Dev"
+layout: "pageProject"
+title:  "Operation Espadon"
+gh_user: 82L
+img: images/espadon.png
+itchio: https://82l.itch.io/operation-espadon-blake-and-mortimer
+desc: Final assignment of Animate course
+keyVal: 2020.12
+year: 2020
+school: Master AMINJ
+display: true
+format: Video game
+technologies: Animate
+video: videos/espadon.mp4
+role: "Designer, Developer"
+type: 2
 ---
 <p>The goal of this assignment was to make an interactive software using Animate, with a proposition in the software to make it more than just "fun"</p>
 <p>I decided to bring alive the Edgar P. Jacobs albums of Blake and Mortimer. Motivated by seeing the game in a "promotional" aspect.</p>

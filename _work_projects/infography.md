@@ -1,18 +1,16 @@
 ---
 layout: "pageProject"
 title:  "Game interface mockup"
-name: "Game interface mockup"
 img: images/thumb-MockupEvaluation.png
 desc: Final assignment of infography course
-keyVal: 4.5
+keyVal: 2020.12
 year: 2020
-type: 202012
 photodir : "./infography/"
 school: Master AMINJ
 display: true
 format: Infography
 technologies: Illustrator, Photoshop
-
+type: 2
 ---
 <p>This is final assignment of a class I followed to learn how to use Photoshop and Illustrator during my master</p>
 <p>We were asked to do a game interface, and then do a mockup with it in a scene. We were tasked to show our skills</p>

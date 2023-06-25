@@ -1,21 +1,20 @@
 ---
-  layout: "pageProject"
-  title:  "Visit of Amiens Cathedrale Transept"
-  name: Visit of Amiens Cathedrale Transept
-  gh_user: 82L
-  ghrepo: AmiensTranseptCathedrale
-  img: images/amiens.jpg
-  itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
-  desc: Project assignement to make the given model explorable.
-  keyVal: 201812
-  year: 2018
-  type: 1
-  display: true
-  technologies: Three.JS
-  format: 3D experience
-  role: "Designer, Dev"
-  school: DUT Informatique
-  video: videos/transept.mp4
+layout: "pageProject"
+title:  "Visit of Amiens Cathedrale Transept"
+gh_user: 82L
+gh_repo: AmiensTranseptCathedrale
+img: images/amiens.jpg
+itchio: https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral
+desc: Project assignement to make the given model explorable.
+keyVal: 2018.12
+year: 2018
+display: true
+technologies: Three.JS
+format: 3D experience
+role: "Designer, Developer"
+school: DUT Informatique
+video: videos/transept.mp4
+type: 2
 ---
 <p>This project is on this porfolio because it is my first 3D experience.</p>
 <p>The teacher gave us the 3D file of the cathedral, and tasked us to animate it by adding a few things:</p>

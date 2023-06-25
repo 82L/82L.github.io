@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "Wooden pint"
-name: A rustic wooden pint
 img: images/thumb-rusticpint3.png
 desc: A rustic wooden pint, made from a log. I tried it because of a YouTube video.
-keyVal: 2.5
+keyVal: 2017.07
 year: 2017
-type: 2
 display: true
 format: Wood
 photodir : "./rusticpint/"
+type: 3
 ---
 This project was inspired by <a href="https://www.youtube.com/watch?v=ehsMshn5rto">this YouTube video</a>, and I tried to do my own.
 

@@ -1,16 +1,15 @@
 ---
-  layout: "pageProject"
-  title:  "Little game in C"
-  name: Little game in C
-  gh_user: 82L
-  img: images/terminal.jpg
-  ghrepo: Projet-Info-Jeu-C
-  desc: First Game and big project, as a young programming student in C. I didn't even have a class about pointers.
-  keyVal: 1
-  year: 2015
-  type: 1
-  school: Licence Informatique
-  technologies: Phaser.js
+layout: "pageProject"
+title:  "Little game in C"
+gh_user: 82L
+img: images/terminal.jpg
+gh_repo: Projet-Info-Jeu-C
+desc: First Game and big project, as a young programming student in C. I didn't even have a class about pointers.
+keyVal: 2015
+year: 2015
+school: Licence Informatique
+technologies: C
+type: 2
 ---
 <p> This project was about making a simple map. Where the user could move. With different elements on it:</p>
 <ul>

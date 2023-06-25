@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "Wooden picks decorated with pyrography"
-name: Wooden picks decorated with pyrography
 img: images/thumb-mediator1.png
 desc: A wooden mediator I made to practice guitar.
-keyVal: 3.3
+keyVal: 2018.05
 year: 2017-2018
-type: 2
 display: true
 format: Wood
 photodir : "./mediators/"
+type: 3
 ---
 <div>
 <p> When I started to try to learn guitar. The idea of creating my own picks emerged</p>

@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "Portable Screen"
-name: "Portable Screen"
 img: images/thumb-recut.png
 desc: "A tentative to make a portable screen"
-keyVal: 6.5
+keyVal: 2021.06
 year: 2021
-type: 5
 display: true
 format: Other
 photodir : "./portablescreen/"
+type: 3
 ---
 <p>As I was switching a lot between Paris and Albi, I tried to make a portable screen. As I wanted to have a dual display everywhere I'd go.</p>
 <p>Sadly, eventhough the result is quite good looking, there is a problem with the electronics.</p>

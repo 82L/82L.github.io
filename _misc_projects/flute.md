@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "A small Taiwanese aboriginal bamboo flute"
-name: A small Taiwanese aboriginal bamboo flute
 img: images/thumb-flute.png
 desc: I learned to make these flutes in Taiwan. I made some more a few times.
-keyVal: 3.4
+keyVal: 2020.06
 year: 2019-2020
-type: 2
 display: true
 format: Wood
 photodir : "./flute/"
+type: 3
 ---
 <p>This is a little Taiwanese flute. More precisely, a flute from the Amis Tribe.</p>
 

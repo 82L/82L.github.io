@@ -1,15 +1,14 @@
 ---
 layout: "pageProject"
 title:  "Decorated bamboo mugs"
-name: Decorated bamboo mugs
 img: images/thumb-lion1.png
 desc: I wanted to try to make mug out of bamboo. So here is my try
-keyVal: 3.2
+keyVal: 2018.06
 year: 2016-2018
-type: 2
 display: true
 format: Wood
 photodir: "./bamboomugs/"
+type: 3
 ---
 <p>To make this mugs, I got the bamboo from Martinique, as I've been here for holidays.</p>
 
