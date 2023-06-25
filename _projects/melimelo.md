@@ -3,7 +3,7 @@ layout: "pageProject"
 title: Méli-Mélo
 client: Grand Palais
 enterprise: Opixido
-img: images/melimelonew.png
+img: images/meli-melo.jpg
 link : https://jeunepublic.grandpalais.fr/meli-melo/fr/la-mosaique-du-grand-palais/
 desc: A "game" website backed by a CMS to create multiple games, based on content.
 year: 04/2022
