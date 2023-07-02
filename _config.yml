@@ -10,18 +10,22 @@ collections:
   projects:
     id: projects
     title: "Game projects"
+    icon: "fa-solid fa-gamepad"
+    needsFilter: true
     keyVal: 1
     output: true
     sort_by: keyVal
   work_projects:
     id: work
     title: "Other IT projects"
+    icon: "fas fa-file-code fa-lg"
     keyVal: 2
     output: true
     sort_by: keyVal
   misc_projects:
     id: misc
-    title: "Miscellaneous projects"
+    title: "Misc projects"
+    icon: "fa-solid fa-wand-magic-sparkles"
     keyVal: 3
     output: true
     sort_by: keyVal
@@ -37,9 +41,6 @@ author:
   gitlab_username:  82l
   itchio_username:  82l
 
-gotWork: true
-gotProjects : true
-gotMisc : true
 
 projectTypes:
   - Professional:

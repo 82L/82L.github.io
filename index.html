@@ -3,9 +3,9 @@ layout: default
 robots: noindex
 ---
 
-<!--<div class="main-post-list">-->
 {% assign collections = site.collections | sort: "keyVal" %}
 {% for collection in collections %}
+{% if collection.title %}
   {% assign posts = collection.label %}
   {% if site[posts].size > 0 %}
     <div id="{{ collection.id }}" class="content-element">
@@ -13,7 +13,7 @@ robots: noindex
       <h2>{{ site[posts] | size }} {{ collection.title }}
         {% if shippedProjects.size > 0 %} - {{shippedProjects.size}} shipped projects{% endif %}
       </h2>
-      {% if collection.id == "projects" %}
+      {% if collection.needsFilter %}
         <select class="filter-list filter-type" name="types" id="type-select">
           <option class="btn-type" value="0">Show all types of projects</option>
           {% for projectType in site.projectTypes %}
@@ -29,12 +29,7 @@ robots: noindex
       </div>
     </div>
   {% endif %}
+  {% endif %}
 {% endfor %}
-{% if site.email_form %} 
-<div id="mail" class="content-element">
-  <!-- <h2>Test</h2> -->
-  <iframe src="{{ site.email_form }}" id="myForm" class="gform" height="650px" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
-</div>
-{% endif %}
-<!--</div>-->
+
 

@@ -11,7 +11,7 @@ role: Developer
 format: Video game
 technologies: C#, WPF
 school: DUT Informatique
-display: true
+display: false
 type: 2
 ---
 <p>This project was my first game. I worked on it in a tandem. I was in charge of the development, and my comrade of the UI</p>
