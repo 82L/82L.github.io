@@ -15,6 +15,14 @@ collections:
     keyVal: 1
     output: true
     sort_by: keyVal
+  game_jams:
+      id: jams
+      title: "Game jams"
+      icon: "fa-solid fa-gamepad"
+      needsFilter: true
+      keyVal: 1.5
+      output: true
+      sort_by: keyVal
   work_projects:
     id: work
     title: "Other IT projects"
