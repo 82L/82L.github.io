@@ -8,7 +8,7 @@ photodir: "./arduino/"
 desc: An arduino game
 keyVal: 2023.05
 year: 05/2023
-school: EICNAM
+school: EICNAM - CNAM ENJMIN
 display: true
 format: Video game
 technologies: Arduino, C++

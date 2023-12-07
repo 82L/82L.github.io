@@ -6,7 +6,7 @@ img: images/skit.png
 desc: A visual novel app workflow
 keyVal: 2023.06
 year: 06/2023
-school: EICNAM
+school: EICNAM - CNAM ENJMIN
 display: true
 format: Game Tools
 technologies: Twine, Capacitor

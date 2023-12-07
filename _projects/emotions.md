@@ -7,7 +7,7 @@ img: images/rideaux-thumb.png
 desc: An interactive digital media take on emotion reading
 keyVal: 2022.12
 year: 12/2022
-school: EICNAM
+school: EICNAM - CNAM ENJMIN
 display: true
 format: Video game
 technologies: Unity, 3Divi
