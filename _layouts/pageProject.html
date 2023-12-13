@@ -29,7 +29,7 @@
                             {% if page.client %}
                             <li><strong>Client : </strong>{{ page.client }}</li>
                             {% endif %}
-                            {% if project.format %}
+                            {% if page.format %}
                             <li><strong>Type : </strong>{{ page.format }}</li>
                             {% endif %}
                             {% if page.technologies %}
@@ -58,23 +58,23 @@
                     class="watchers"> Test it</span></a>
             {% endif %}
             {% if page.link %}
-            <a target="_blank" class="foreign-link" href="{{ project.link }}"><i
+            <a target="_blank" class="foreign-link" href="{{ page.link }}"><i
                     class="fas fa-link"></i><span class="watchers"> Test it</span></a>
             {% endif %}
             {% if page.android %}
-            <a target="_blank" class="foreign-link" href="{{ project.android }}"><i
+            <a target="_blank" class="foreign-link" href="{{ page.android }}"><i
                     class="fab fa-brands fa-android "></i><span class="watchers"> Test it</span></a>
             {% endif %}
             {% if page.apple %}
-            <a target="_blank" class="foreign-link" href="{{ project.apple }}"><i
+            <a target="_blank" class="foreign-link" href="{{ page.apple }}"><i
                     class="fab fa-brands fa-apple"></i><span class="watchers"> Test it</span></a>
             {% endif %}
             {% if page.gh_repo %}
             <a target="_blank" class="foreign-link" href="https://github.com/{{ page.gh_user }}/{{ page.gh_repo }}"><i
                     class="fab fa-github"></i><span class="watchers"> Repository</span></a>
             {% endif %}
-            {% if project.glrepo %}
-            <a target="_blank" class="foreign-link" href="https:///gitlab.com/{{ project.glrepo }}"><i
+            {% if page.glrepo %}
+            <a target="_blank" class="foreign-link" href="https:///gitlab.com/{{ page.glrepo }}"><i
                     class="fa-brands fa-gitlab"></i><span class="watchers"> Repository</span></a>
             {% endif %}
         </div>
