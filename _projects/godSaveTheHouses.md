@@ -30,24 +30,24 @@ type: 2
         <a href="{{page.photodir}}DSC_0731_resize.jpg" itemprop="contentUrl" data-size="4496x3000">
           <img class="project-image" src="{{page.photodir}}DSC_0731_resize-thumb.jpg" itemprop="thumbnail" alt="Schematics of the circuit" />
         </a>
-        <figcaption itemprop="caption description">Schematics of the circuit</figcaption>
+        <figcaption itemprop="caption description">Picture of the game being played</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}DSC_0732_resize.jpg" itemprop="contentUrl" data-size="4496x3000">
           <img class="project-image" src="{{page.photodir}}DSC_0732_resize-thumb.jpg" itemprop="thumbnail" alt="Schematics of the circuit" />
         </a>
-        <figcaption itemprop="caption description">Schematics of the circuit</figcaption>
+        <figcaption itemprop="caption description">Picture of a level finished</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}DSC_0736_resize.jpg" itemprop="contentUrl" data-size="4496x3000">
           <img class="project-image" src="{{page.photodir}}DSC_0736_resize-thumb.jpg" itemprop="thumbnail" alt="Schematics of the circuit" />
         </a>
-        <figcaption itemprop="caption description">Schematics of the circuit</figcaption>
+        <figcaption itemprop="caption description">Picture of a sound designer working</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}DSC_0738_resize.jpg" itemprop="contentUrl" data-size="4496x3000">
           <img class="project-image" src="{{page.photodir}}DSC_0738_resize-thumb.jpg" itemprop="thumbnail" alt="Schematics of the circuit" />
         </a>
-        <figcaption itemprop="caption description">Schematics of the circuit</figcaption>
+        <figcaption itemprop="caption description">Picture of the game being played</figcaption>
     </figure>
 </div>
