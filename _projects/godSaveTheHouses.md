@@ -3,8 +3,8 @@ layout: "pageProject"
 title:  "God Save The Houses"
 gh_user: Pierrhum
 gh_repo: GodSaveTheHouse
-img: images/arduino.jpeg
-photodir: "./arduino/"
+img: images/godsavethehouse.jpeg
+photodir: "./godhouses/"
 desc: A unity game with an Alt-Ctrl for physically impaired persons
 keyVal: 2023.09
 year: 09/2023
@@ -12,8 +12,8 @@ school: EICNAM - CNAM ENJMIN
 itchio: https://nikujaga.itch.io/god-save-the-houses
 display: true
 format: Video game
-technologies: Arduino, C++, Unity, Ardity
-role: "Developer, Electronician"
+technologies: Arduino, C++, C#, Unity, Ardity
+role: "Developer, Electronics engineer"
 type: 2
 ---
 <p>This a project for a workshop about connected objects and handicap. In this game, you play as god, and you must extinguish the burning houses with your sponge, seen by human as a cloud</p>
