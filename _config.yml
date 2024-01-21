@@ -1,6 +1,6 @@
 # Site settings
 title: "82L Portfolio"
-description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an Engineer in computing and multimedia"
+description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an Engineer in computer science and multimedia"
 url: 'https://82l.github.io'
 baseurl: ''
 profilepic: '/images/profile.png'
@@ -19,7 +19,6 @@ collections:
       id: jams
       title: "Game jams"
       icon: "fa-solid fa-gamepad"
-      needsFilter: true
       keyVal: 1.5
       output: true
       sort_by: keyVal
