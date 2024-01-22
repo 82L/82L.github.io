@@ -13,7 +13,7 @@
 .user-image{
   width: 100px;
   height: 100px;
-  border-radius: 100%;
+  border-radius: 10px;
   border: 3px solid var(--clear-text);
 }
 .navigation{
@@ -48,7 +48,7 @@
 }
 .navigation__item{
   border: 2px solid var(--clear-text);
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 5px 6px;
   margin-right: 6px;
   margin-bottom: 6px;
@@ -87,9 +87,12 @@
 }
 .panel-title{
   margin-top: 10px;
+  font-size: 6rem;
+  font-family: "Lobster Two", serif;
 }
 .panel-desc{
-  font-size: 18px;
+  font-size: 2rem;
+  font-weight: 300;
 }
 .navigation-menu{
   //height: 10px;
@@ -104,7 +107,7 @@
   padding-right: 30px;
 }
 .homepage-default .navigation-menu{
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 .menu-container{

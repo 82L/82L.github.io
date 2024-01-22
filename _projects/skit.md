@@ -7,11 +7,12 @@ desc: A visual novel app workflow
 keyVal: 2023.06
 year: 06/2023
 school: EICNAM - CNAM ENJMIN
-display: true
+display: false
 format: Game Tools
 technologies: Twine, Capacitor
 role: "Developer"
 type: 2
+
 ---
 <p>This is a project made for an association, in "assimilation project" course</p>
 <p>The association wanted to make an app concept to gain investment, for a campaign to stop middle and high schoolers from starting their first cigarette.</p>

@@ -14,21 +14,30 @@
 }
 
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  //-webkit-appearance: none;
+  //-moz-appearance: none;
+  //appearance: none;
   outline: none;
-  background: transparent;
+  background: var(--clear-text);
   border-style: none;
-  border: 1px solid #333333;
-  color: #333333;
-  border-radius: 50vh;
+  border: 2px solid var(--dark-text);
+  color: var(--dark-text);
+  border-radius: 0 10px 0 10px;
+  border-radius: 10px 10px 10px 10px;
   padding: 5px;
-  font-size: .9em;
+  font-size: 1.2rem;
+  font-family: Oswald, serif;
   /*font-weight: bold;*/
   margin-bottom: 2rem;
 }
-
+select:active, select:hover{
+  background-color: var(--dark-text);
+  color: var(--clear-text);
+}
+option, select option{
+  font-size: 1.2rem;
+  font-family: Oswald, serif;
+}
 select::-ms-expand {
   display: none;
 }

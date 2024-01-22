@@ -16,7 +16,7 @@ school: DUT Informatique
 video: videos/transept.mp4
 type: 2
 ---
-<p>This project is on this porfolio because it is my first 3D experience.</p>
+<p>This project is on this portfolio because it is my first 3D experience.</p>
 <p>The teacher gave us the 3D file of the cathedral, and tasked us to animate it by adding a few things:</p>
 <ul>
 <li>Fps Controls</li>

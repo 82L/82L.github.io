@@ -1,6 +1,6 @@
 # Site settings
-title: "82L Portfolio"
-description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an Engineer in computer science and multimedia"
+title: "82L"
+description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an engineer in computer science and multimedia"
 url: 'https://82l.github.io'
 baseurl: ''
 profilepic: '/images/profile.png'
@@ -30,8 +30,8 @@ collections:
     output: true
     sort_by: keyVal
   misc_projects:
-    id: misc
-    title: "Misc projects"
+    id: experiments
+    title: "Experiments"
     icon: "fa-solid fa-wand-magic-sparkles"
     keyVal: 3
     output: true

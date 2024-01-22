@@ -10,6 +10,7 @@ year: 2015
 school: Licence Informatique
 technologies: C
 type: 2
+display: false
 ---
 <p> This project was about making a simple map. Where the user could move. With different elements on it:</p>
 <ul>

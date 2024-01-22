@@ -9,7 +9,7 @@ desc: An arduino game
 keyVal: 2023.05
 year: 05/2023
 school: EICNAM - CNAM ENJMIN
-display: true
+display: false
 format: Video game
 technologies: Arduino, C++
 role: "Designer, Developer"
@@ -22,7 +22,7 @@ type: 2
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}schematics.png" itemprop="contentUrl" data-size="1048x826">
-          <img class="project-image" src="{{page.photodir}}1-thumb.png" itemprop="thumbnail" alt="Schematics of the circuit" />
+          <img class="project-image" src="{{page.photodir}}schematics-thumb.png" itemprop="thumbnail" alt="Schematics of the circuit" />
         </a>
         <figcaption itemprop="caption description">Schematics of the circuit</figcaption>
     </figure>

@@ -16,16 +16,16 @@
                         <div class="card__header-details">
                             <ul>
                                 {% if project.client %}
-                                    <li><strong>Client : </strong>{{ project.client }}</li>
+                                    <li>Client : {{ project.client }}</li>
                                 {% endif %}
-                                {% if project.format %}
-                                    <li><strong>Type : </strong>{{ project.format }}</li>
-                                {% endif %}
+<!--                                {% if project.format %}-->
+<!--                                    <li><strong>Type : </strong>{{ project.format }}</li>-->
+<!--                                {% endif %}-->
                                 {% if project.technologies %}
-                                    <li><strong>Tech : </strong>{{ project.technologies }}</li>
+                                    <li>Tech: {{ project.technologies }}</li>
                                 {% endif %}
                                 {% if project.role %}
-                                    <li><strong>Role : </strong>{{ project.role }}</li>
+                                    <li>Role: {{ project.role }}</li>
                                 {% endif %}
                                 {% if project.shipped %}
                                     <li><strong>Project shipped</strong></li>
@@ -46,17 +46,20 @@
 
                 </div>
             </div>
-            {% if project.video %}
+<!--            {% if project.video %}-->
+<!--            <div class="hidden_video" >-->
+<!--                <video preload="metadata" class="card-video" controls id="video-{{ project.customId }}">-->
+<!--                    <source src="{{ project.video }}"  type="video/mp4">-->
+<!--                </video>-->
+<!--            </div>-->
+<!--            {% endif %}-->
+            </a>
             <div class="row">
-                <div class="col-12">
-                    <video preload="metadata" class="card-video" controls>
-                        <source src="{{ project.video }}"  type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            {% endif %}
-            <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 mx-3">
+<!--                    {% if project.video %}-->
+<!--                    <a class="foreign-link video-link" href="#" data-projectid="{{ project.customId }}"><i-->
+<!--                            class="fa-solid fa-play"></i><span class="watchers" data-projectid="{{ project.customId }}"> Watch Preview</span></a>-->
+<!--                    {% endif %}-->
                     {% if project.itchio %}
                     <a target="_blank" class="foreign-link" href="{{ project.itchio }}"><i
                             class="fab fa-itch-io"></i><span class="watchers"> Test it</span></a>
@@ -88,7 +91,7 @@
                     {% endif %}
                 </div>
             </div>
-        </a>
+<!--        </a>-->
     </article>
 </div>
 {% endif %}
