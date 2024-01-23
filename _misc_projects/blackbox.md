@@ -9,7 +9,7 @@ desc: An arduino game
 keyVal: 2023.05
 year: 05/2023
 school: EICNAM - CNAM ENJMIN
-display: false
+display: true
 format: Video game
 technologies: Arduino, C++
 role: "Designer, Developer"
