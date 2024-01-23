@@ -13,7 +13,7 @@ technologies: Three.JS
 format: 3D experience
 role: "Designer, Developer"
 school: DUT Informatique
-video: videos/transept.mp4
+video: /videos/transept.mp4
 type: 2
 ---
 <p>This project is on this portfolio because it is my first 3D experience.</p>

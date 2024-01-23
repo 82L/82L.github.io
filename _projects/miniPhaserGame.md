@@ -12,7 +12,7 @@ format: Video game
 technologies: Phaser.js
 role: "Designer, Developer"
 display: true
-video : videos/tower.mp4
+video : /videos/tower.mp4
 type: 2
 ---
 <p>That is one of my first game realisation.</p>

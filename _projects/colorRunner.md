@@ -13,7 +13,7 @@ display: true
 technologies: Unity
 format: Video game prototype
 role: "Designer, Developer"
-video: videos/runner.mp4
+video: /videos/runner.mp4
 type: 2
 ---
 <p>This project was done as a structure for a planning class, so the teacher could point out the problems in our workflow, and try to give us hardships as the client.</p>

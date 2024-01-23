@@ -11,7 +11,7 @@ school: Master AMINJ
 display: true
 format: Video game
 technologies: Animate
-video: videos/espadon.mp4
+video: /videos/espadon.mp4
 role: "Designer, Developer"
 type: 2
 ---

@@ -14,7 +14,7 @@ school: Master AMINJ
 display: true
 format: E-learning prototype
 role: "Game Designer, Narrative technician"
-video: videos/seriousseller_1.mp4
+video: /videos/seriousseller_1.mp4
 type: 2
 ---
 <p>This software is a demo of an e-learning software about salesmanship.</p>

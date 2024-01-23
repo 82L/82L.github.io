@@ -12,7 +12,7 @@ display: true
 role : "Developer"
 technologies: Ionic Capacitor, node.js, JQuery
 format : Mobile application
-video: videos/burrus_1.mp4
+video: /videos/burrus_1.mp4
 type: 1
 shipped: true
 ---

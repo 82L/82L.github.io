@@ -13,7 +13,7 @@ display: true
 technologies: PHP, Ionic Capacitor, Node.js, JQuery
 format: Mobile application
 role: "Developer"
-video: videos/citeespace_1.mp4
+video: /videos/citeespace_1.mp4
 type: 1
 shipped: true
 ---

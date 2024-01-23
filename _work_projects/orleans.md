@@ -13,7 +13,7 @@ role: "Developer"
 display: true
 format: "Digital label"
 technologies: Node.js, Cordova
-video: videos/orleans.mp4
+video: /videos/orleans.mp4
 type: 1
 shipped: true
 ---

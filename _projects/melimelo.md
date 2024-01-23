@@ -12,7 +12,7 @@ role: "Developer"
 format: "Game website"
 technologies: PHP, JQuery
 display: true
-video: videos/melimelo.mp4
+video: /videos/melimelo.mp4
 type: 1
 shipped: true
 ---

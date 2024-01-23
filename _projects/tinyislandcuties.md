@@ -13,7 +13,7 @@ technologies: Unity, WebGl
 display: true
 type: 1
 shipped: true
-video: videos/TIC.mp4
+video: /videos/TIC.mp4
 ---
 <p>This project was not one of the best. I had to do a WebGL adaptation of this mobile game, who didn't meet its public. In short : manipulation all the UIs so they could work on a 16/9 screen. </p>
 <p>The shortcomings of this project, is that I didn't know anything about it beforehand (and I didn't get any explanations of the game systems), and there was virtually no mockups of what the UIs should look like in the web version. So I navigated by view, doing my best. Trying to implement the Kongregate API which documentation was incomplete.</p>

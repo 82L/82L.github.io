@@ -12,7 +12,7 @@ technologies: Node.js, JQuery
 format: Web application
 role: "Developer"
 type: 1
-video: "videos/femmages.mp4"
+video: "/videos/femmages.mp4"
 shipped: true
 ---
 

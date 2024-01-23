@@ -12,7 +12,7 @@ technologies: Unity, Scorm
 format: Mini-game
 role: "Game Design, Project manager, Developer"
 school: Master AMINJ
-video: videos/doom.mp4
+video: /videos/doom.mp4
 type: 2
 ---
 <p>This game was designed as part of a course.</p>

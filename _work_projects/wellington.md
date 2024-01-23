@@ -13,7 +13,7 @@ role: "Developer"
 display: true
 format: "PWA"
 technologies: Node.js
-video: videos/wellington.mp4
+video: /videos/wellington.mp4
 type: 1
 shipped: true
 ---
