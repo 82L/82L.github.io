@@ -12,16 +12,19 @@
 }
 
 body{
-  width: 100%;
+  //width: 100%;
   font-size: 1.2rem;
   font-weight: 300;
   color: var(--dark-text);
   background-color: var(--clear-text);
   font-family: Oswald, serif;
 }
+.row{
+  margin: 0 !important;
+}
 .body-content{
-  height: 100%;
-  width: 100%;
+  //height: 100%;
+  //width: 100%;
 }
 html{
   width: 100%;
