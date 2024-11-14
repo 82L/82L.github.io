@@ -47,6 +47,13 @@ author:
   gitlab_username:  82l
   itch_username:  82l
   bluesky_username: 82l.bsky.social
+  socials:
+    - link : https://bsky.app/
+      icon : "fa-brands fa-bluesky fa-lg"
+      link-title : "Someone on bluesky"
+    - link: "mailto:contact@email.com"
+      icon: "fa-solid fa-envelope"
+      link-title: "Contact by mail"
 
 
 
