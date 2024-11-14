@@ -47,13 +47,27 @@ author:
   gitlab_username:  82l
   itch_username:  82l
   bluesky_username: 82l.bsky.social
-  socials:
-    - link : https://bsky.app/
-      icon : "fa-brands fa-bluesky fa-lg"
-      link-title : "Someone on bluesky"
-    - link: "mailto:contact@email.com"
-      icon: "fa-solid fa-envelope"
-      link-title: "Contact by mail"
+
+
+socials:
+  - link: "https://www.github.com/82l"
+    icon: "fab fa-github fa-xl"
+    link-title: "See my code on GitHub (main git account)"
+  - link: "https://www.gitlab.com/82l"
+    icon: "fa-brands fa-gitlab fa-xl"
+    link-title: "See my code on GitLab (sub git account)"
+  - link: "https://82l.itch.io"
+    icon: "fab fa-itch-io fa-xl"
+    link-title: "Find my games on Itch"
+  - link: "https://bsky.app/profile/82l.bsky.social"
+    icon: "fa-brands fa-bluesky fa-xl"
+    link-title: "Find me on BlueSky"
+  - link: "https://twitter.com/EightyTwoL"
+    icon: "fab fa-twitter fa-xl"
+    link-title: "Find me on twitter (prefer BlueSky)"
+  - link: "ma&#105;lt&#111;&#58;c&#37;6Fnt%61c&#116;er82%6C&#37;40gm%61il&#46;c%6&#70;&#109;"
+    icon: "fa-solid fa-envelope fa-xl"
+    link-title: "Contact me by mail"
 
 
 
