@@ -69,7 +69,13 @@ socials:
     icon: "fa-solid fa-envelope fa-xl"
     link-title: "Contact me by mail"
 
-
+techs:
+  csharp:
+    label: "C#"
+    logo: "/logos/csharp.svg"
+  cpp:
+    label: "C++"
+    logo: "/logos/cpp.svg"
 
 
 # Build settings
