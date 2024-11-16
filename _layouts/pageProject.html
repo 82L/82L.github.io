@@ -17,8 +17,8 @@
                     <p class="year-block">
                         {{ page.year }}
                         {% if page.year and page.enterprise %} - {% endif %}
-                        {% if page.year and page.school %} - {% endif %}
-                        {{ page.enterprise }}{{ page.school }}
+                        {% if page.year and page.student %} - {% endif %}
+                        {{ page.enterprise }}{% if page.student %}Student Project{% endif %}
                     </p>
                     <div class="row g-0">
                         <div class="col-12 col-lg-6 no-gutter">
@@ -28,7 +28,7 @@
                                     <li>Client: {{ page.client }}</li>
                                     {% endif %}
                                     {% if page.format %}
-                                    <li>Type: {{ page.format }}</li>
+                                    <li>{{ page.format }}</li>
                                     {% endif %}
                                     {% if page.role %}
                                     <li>Role: {{ page.role }}</li>

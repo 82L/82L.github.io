@@ -1,17 +1,26 @@
 ---
 layout: "pageProject"
 title:  "Black Box"
-gh_user: 82L
-gh_repo: arduino_code_game
 img: images/arduino.jpeg
 photodir: "./arduino/"
-excerpt: A small game console
+excerpt: A small game box based on an Arduino
 keyVal: 2023.05
 year: 05/2023
-school: EICNAM - CNAM ENJMIN
+student: EICNAM - CNAM ENJMIN
 display: true
 format: Video game
-technologies: Arduino, C++
+
+tech-label: "Techs:"
+techs:
+  - arduino
+  - cpp
+  - threedprint
+  
+links:
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: https://github.com/82L/arduino_code_game
+    
 role: "Designer, Developer"
 type: 2
 ---

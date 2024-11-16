@@ -1,21 +1,29 @@
 ---
 layout: "pageProject"
 title:  "DOOM mini-game"
-gh_user: 82L
-gh_repo:
+
 img: images/doom.jpg
 excerpt: "And if doom was a rail shooter ? Class about making a promotional mini-game, with an MCQ and a leaderboard"
 keyVal: 2021.03
 year: 03/2021
 display: true
-technologies: Unity, Scorm
-format: Mini-game
+
+tech-label: "Techs:"
+techs:
+  - unity
+  - csharp
+  - scorm
+
+format: Mini Video Game
+
 role: "Game Design, Project manager, Developer"
-school: Master AMINJ
+
+student: true
+
 video: /videos/doom.mp4
 type: 2
 ---
-<p>This game was designed as part of a course.</p>
+<p>This game was designed as part of a class, about making a promotional mini video game using scorm.</p>
 <p>The goal was first to design a MCQ about the franchise chosen. 
 Then give a mini-game for the ones who managed to get all correct answer</p>
 <p>The goal of the leaderboard was to discriminate between the winners, and get their names</p>

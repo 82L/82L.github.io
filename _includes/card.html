@@ -10,13 +10,16 @@
                         <p class="card__header-subtitle">
                             {{project.year}}
                             {% if project.year and project.enterprise %} - {% endif %}
-                            {% if project.year and project.school %} - {% endif %}
-                            {{ project.enterprise }}{% if project.school %}School: {% endif %}{{ project.school }}
+                            {% if project.year and project.student %} - {% endif %}
+                            {{ project.enterprise }}{% if project.student %}Student Project{% endif %}
                         </p>
                         <div class="card__header-details">
                             <ul>
                                 {% if project.client %}
                                     <li>Client: {{ project.client }}</li>
+                                {% endif %}
+                                {% if project.format %}
+                                    <li>{{ project.format }}</li>
                                 {% endif %}
                                 {% if project.role %}
                                     <li>Role: {{ project.role }}</li>
@@ -26,28 +29,34 @@
                                 {% endif %}
                             </ul>
                         </div>
+                      
                     </div>
                 </div>
                 <div class="col-4">
                     {% if project.img %}
                     <img class="card-img" src="{{ project.img | prepend: site.baseurl }}" alt=""/>
                     {% endif %}
-                    <span>{{ project.tech-label }}</span>
-                    <div class="tech-list">
-                        {% for tech in project.techs %}
-                        {% include tech.html %}
-                        {% endfor %}
-                    </div>
                   
                 </div>
             </div>
             <div class="row">
+                
                 <div class="col-12">
                     <div class="card-desc">
                         {{ project.excerpt | markdownify }}
                     </div>
 
                 </div>
+                <div class="col-12">
+                    <div class="tech-list">
+                        <span>{{ project.tech-label }}</span>
+                        {% for tech in project.techs %}
+                        {% include tech.html %}
+                        {% endfor %}
+                    </div>
+
+                </div>
+              
             </div>
             </a>
             <div class="row">

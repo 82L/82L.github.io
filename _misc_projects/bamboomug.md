@@ -6,35 +6,39 @@ excerpt: Bamboo mugs with pyrography decorations
 keyVal: 2018.06
 year: 2016-2018
 display: true
-format: Wood
+format: Woodworking
+
+techs:
+  - bamboo
+tech-label: "Material:"
+
 photodir: "./bamboomugs/"
 type: 3
 ---
-<p>To make this mugs, I got the bamboo from Martinique, as I've been here for holidays.</p>
-
-<p>I just cut the bamboo tree to keep the section as the bottom parts of the glasses. Then, I sanded the edge to make it easier to drink from.
-</p>
-<p>I decorated them with pyrography. I made a few of them for my friends, decorated with animals.</p>
-
+<p>This is a simple art project based on bamboo mugs. I got the bamboo from Martinique, and I processed it in metropolitan France</p>
+<p>The process is simple enough: I just cut a bamboo tree in a way to keep each section as the bottom of the cup.</p>
+<p>As the walls were quite thick (take a smaller bamboo if you want to try this at home), I sanded the edge to make it easier to drink from the cup.</p>
+<p>I decorated them with animals representation made using pyrography. All of them made for friends.</p>
+<p>As you can see, my drawing skills are a bit lacking, but I do like what I did.</p>
 <p>Here is a Lion :</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}lion1.png" itemprop="contentUrl" data-size="1464x2094">
-          <img class="project-image" src="{{page.photodir}}thumb-lion1.png" itemprop="thumbnail" alt="Drawing of the lion" />
+          <img class="project-image" src="{{page.photodir}}thumb-lion1.png" itemprop="thumbnail" alt="Drawing of the lion on the mug" />
         </a>
-        <figcaption itemprop="caption description">Drawing of the lion</figcaption>
+        <figcaption itemprop="caption description">Drawing of the lion on the mug</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}lion2.png" itemprop="contentUrl" data-size="1692x2736">
-          <img class="project-image" src="{{page.photodir}}thumb-lion2.png" itemprop="thumbnail" alt="Drawing of the lion" />
+          <img class="project-image" src="{{page.photodir}}thumb-lion2.png" itemprop="thumbnail" alt="Drawing of the lion on the mug" />
         </a>
-        <figcaption itemprop="caption description">Drawing of the lion</figcaption>
+        <figcaption itemprop="caption description">Drawing of the lion on the mug</figcaption>
     </figure>
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{page.photodir}}lion3.png" itemprop="contentUrl" data-size="1836x2960">
           <img class="project-image" src="{{page.photodir}}thumb-lion3.png" itemprop="thumbnail" alt="Drawing of the lion pyrographied" />
         </a>
-        <figcaption itemprop="caption description">Drawing of the lion pyrographied</figcaption>
+        <figcaption itemprop="caption description">Drawing of the lion pyrographied on the mug</figcaption>
     </figure>
 </div>
 <p>Here is a bear :</p>

@@ -1,15 +1,26 @@
 ---
 layout: "pageProject"
 title:  "Little game in C"
-gh_user: 82L
+
 img: images/terminal.jpg
-gh_repo: Projet-Info-Jeu-C
+
 excerpt: "A game in C, without pointers, as 1st year CS final assignment "
 keyVal: 2015
 year: 2015
-school: Licence Informatique
-technologies: C
+student: true
+
+
+tech-label: "Techs:"
+tech:
+  - c
+
+links:
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/82L/Projet-Info-Jeu-C"
+
 type: 2
+
 display: false
 ---
 <p> This project was about making a simple map. Where the user could move. With different elements on it:</p>

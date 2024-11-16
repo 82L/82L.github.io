@@ -2,21 +2,24 @@
 layout: "pageProject"
 title:  "Wooden pint"
 img: images/thumb-rusticpint3.png
-excerpt: "A rustic wooden pint, made from a log. Inspired by a YouTube video."
+excerpt: "A rustic wooden pint made from a log, inspired by a YouTube video."
 keyVal: 2017.07
 year: 2017
 display: true
-format: Wood
+format: Woodworking
+tech-label: "Material:"
+techs:
+  - wood
 photodir : "./rusticpint/"
 type: 3
 ---
-This project was inspired by <a href="https://www.youtube.com/watch?v=ehsMshn5rto">this YouTube video</a>, and I tried to do my own.
+This project was inspired by <a href="https://www.youtube.com/watch?v=ehsMshn5rto">this YouTube video</a>.
 
-But I made a mistake: I took green wood. And when the wood dried, all the pieces shrank, and the joints didn't fit anymore. So I never finished it fully.
+I followed the video, but I made a mistake: I took green wood. When the wood dried, all the pieces shrank, and the joints didn't fit anymore. So I was not able finished it fully.
 
 Eventually, I used the wood of the pint to do some of my picks.
 
-But I managed to find a log of wood suiting my taste to retry it in the near future
+I will definitely retry it someday in the future.
 
 <div class="project-gallery" itemscope itemtype="http://schema.org/ImageGallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">

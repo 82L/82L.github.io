@@ -6,7 +6,10 @@ excerpt: "A tentative copy of a Celtic ring found in Taiwan"
 keyVal: 2020.07
 year: 2020
 display: true
-format: Metal
+format: Metalworking
+tech-label: "Materials:"
+techs:
+  - metal
 photodir : "./ring/"
 type: 3
 ---
@@ -20,9 +23,9 @@ type: 3
         <figcaption itemprop="caption description">Original ring found in Taiwan</figcaption>
     </figure>
 </div>
-<p>But as it was pretty expensive, and I didn't have a lot of money, I decided to do it myself</p>
-<p>To do it, I used a vice as an anvil, and a blowtorch as a forge, because I wasn't working with a lot of metal</p>
-<p>The base material was a beer clip, meant to hold the cork in place.</p>
+<p>But as it was too expensive, I decided to do it myself</p>
+<p>My tools where a vice as an anvil and a blowtorch as a forge.</p>
+<p>The base material was a beer clip from a bottle, meant to hold the cork in place.</p>
 <p>Here is the result :</p>
 <div class="project-gallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -56,5 +59,5 @@ type: 3
         <figcaption itemprop="caption description">Image of the ring I made</figcaption>
     </figure>
 </div>
-<p>I'm not 100% pleased with it, and I plan to try again with other clips I collected</p>
+<p>I'm not 100% pleased with it, and I plan to try again with other clips I collected, and better tools.</p>
 </div>

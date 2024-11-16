@@ -1,25 +1,33 @@
 ---
 layout: "pageProject"
-title: PWA Le Front Ouest en Hauts-de-France
+title: Le Front Ouest en Hauts-de-France
 client: Carrière Wellington
 enterprise: Opixido
 img: images/wellington.png
 photodir: "./wellington/"
-link : https://frontouest1418-hautsdefrance.com
-excerpt: A PWA to show the diverse places of memory for WW1 in the Somme.
+excerpt: A PWA to show the diverse places of memory of WW1 in the Hauts-de-France.
 year: 03/2021
 keyVal: 2021.03
 role: "Developer"
 display: true
 format: "PWA"
-technologies: Node.js
+
+tech-label: "Techs:"
+techs:
+  - node
+  - jquery
+
+links:
+  - label: "Test it"
+    icon: "fas fa-link"
+    url: https://frontouest1418-hautsdefrance.com
+
 video: /videos/wellington.mp4
 type: 1
 shipped: true
 ---
-<p>I worked in this project as a front end developer. But I wasn't tasked to do the styling. 
-I was involved in the creation of the DOM and the JS mechanics needed to allow the user interactions with the PWA.</p>
-<p>The global structure of the program is made from Opixido's boilerplate, and was actually used in numerous projects ("Une Soirée chez le Duc d'Orléans" included) </p>
+<p>I worked in this project as a front end developer. I wasn't tasked to do the styling. But the creation of the DOM and the JS mechanics needed to allow the user interactions with the PWA.</p>
+<p>The global structure of the program is made from Opixido boilerplate, and was actually used in numerous projects.</p>
 <p>The datas of the app are managed by a CMS and an API</p>
 <div class="project-gallery">
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">

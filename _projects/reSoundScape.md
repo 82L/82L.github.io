@@ -1,18 +1,29 @@
 ---
 layout: "pageProject"
 title:  "Re-soundscape"
-gh_user: 82l
-gh_repo: resoundscape
 img: images/resoundscape-title.png
 excerpt: "A mini game about bringing back sound to the world for a class about sound !"
 keyVal: 2024.01
 year: 01/2024
-school: EICNAM - CNAM ENJMIN
-itch: https://82l.itch.io/resoundscape
+student: true
+
 display: true
 format: Video Game
-technologies: C#, Unity
 role: "Developer"
+
+tech-label: "Techs:"
+techs:
+  - unity
+  - csharp
+
+links:
+  - label: "Test it"
+    icon: "fab fa-itch-io"
+    url: "https://82l.itch.io/resoundscape"
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/82l/resoundscape"
+    
 type: 2
 ---
 <p>This is a project for a class about sound. The goal was to make a game around a sound interaction. We opted for this format, in which the player had to make its own sounds.</p>

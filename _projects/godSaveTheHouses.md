@@ -1,18 +1,31 @@
 ---
 layout: "pageProject"
 title:  "God Save The Houses"
-gh_user: Pierrhum
-gh_repo: GodSaveTheHouse
+
 img: images/godsavethehouse.jpeg
 photodir: "./godhouses/"
 excerpt: "Alt-Ctrl mini game for a class about IOT and disabilities"
 keyVal: 2023.09
 year: 09/2023
-school: EICNAM - CNAM ENJMIN
-itch: https://nikujaga.itch.io/god-save-the-houses
+student: true
+
+links:
+  - label: "Test it"
+    icon: "fab fa-itch-io"
+    url: "https://nikujaga.itch.io/god-save-the-houses"
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/Pierrhum/GodSaveTheHouse"
+
 display: true
-format: Video game
-technologies: Arduino, C++, C#, Unity, Ardity
+format: Video Game
+tech-label: "Techs:"
+techs:
+  - unity
+  - csharp
+  - arduino
+  - cpp
+
 role: "Developer, Electronics engineer"
 type: 2
 ---

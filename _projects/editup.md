@@ -1,25 +1,37 @@
 ---
 layout: "pageProject"
 title:  "Serious Seller"
-gh_user: D0O0N
-gh_repo: Editup-Game
+
 img: images/editup.png
 photodir: "./editup/"
-itch: https://82l.itch.io/editup
+
 excerpt: "Vertical slice of an e-learning software. Final assignment of a lecture."
 keyVal: 2021.12
-technologies: Unity
+
 year: 2021
-school: Master AMINJ
+student: true
 display: true
-format: E-learning prototype
+format: E-learning Prototype
+
+tech-label: "Techs:"
+techs:
+  - unity
+  - csharp
+  
+links:
+  - label: "Test it"
+    icon: "fab fa-itch-io"
+    url: "https://82l.itch.io/editup"
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/D0O0N/Editup-Game"
 role: "Game Designer, Narrative technician"
 video: /videos/seriousseller_1.mp4
 type: 2
 ---
 <p>This software is a demo of an e-learning software about salesmanship.</p>
 
-<p>It was made to structure a course about team management and rendering a demo.<br/>
+<p>It was made to as a base a course about team management and rendering a demo.<br/>
 We worked on this as a full class of 15 students, in a timeline of a few weeks. Not at full-time, as we got other projects.</p>
 
 <p>What was given to us was all the documents to create this software : the lessons, the exercises, the scripts for the visual novels.</p>

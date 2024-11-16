@@ -1,16 +1,24 @@
 ---
 layout: "pageProject"
-title:  "A tower building casual game for a coding class"
-gh_user: 82L
+title:  "A Phaser Building Tower Game"
 img: images/phaser.png
-itch: https://82l.itch.io/a-phaser-building-tower-game
 excerpt: Assignment to do a casual game for a coding class.
 keyVal: 2020.11
 year: 2020
-school: Master AMINJ
-format: Video game
-technologies: Phaser.js
+student: true
+format: Video Game
+
 role: "Designer, Developer"
+
+tech-label: "Techs:"
+techs:
+  - phaser
+  
+links:
+  - label: "Test it"
+    icon: "fab fa-itch-io"
+    url: "https://82l.itch.io/a-phaser-building-tower-game"
+    
 display: true
 video : /videos/tower.mp4
 type: 2

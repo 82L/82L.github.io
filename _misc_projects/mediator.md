@@ -6,7 +6,10 @@ excerpt: Wooden pick I made to practice guitar. Because it's cooler
 keyVal: 2018.05
 year: 2017-2018
 display: true
-format: Wood
+format: Woodworking
+tech-label: "Material:"
+techs:
+  - wood
 photodir : "./mediators/"
 type: 3
 ---

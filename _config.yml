@@ -76,6 +76,67 @@ techs:
   cpp:
     label: "C++"
     logo: "/logos/cpp.svg"
+  blender:
+    label: "Blender"
+    logo: "/logos/blender.svg"
+  substance:
+    label: "Substance"
+    logo: "/logos/substance.svg"
+  wood:
+    label: "Wood"
+  bamboo:
+    label: "Bamboo"
+  arduino:
+    label: "Arduino"
+    logo: "/logos/arduino.svg"
+  threedprint:
+    label: "3d Print"
+  photoshop:
+    label: "Photoshop"
+    logo: "/logos/photoshop.svg"
+  illustrator:
+    label: "Illustrator"
+    logo: "/logos/illustrator.svg"
+  electronics:
+    label: "Electronics"
+  metal:
+    label: "Metal"
+  capacitor:
+    label: "Capacitor"
+    logo: "/logos/capacitor.svg"
+  jquery:
+    label: "JQuery"
+    logo: "/logos/jquery.svg"
+  node:
+    label: "Node.JS"
+    logo: "/logos/nodejs.svg"
+  php:
+    label: "PHP"
+    logo: "/logos/php.svg"
+  cordova:
+    label: "Cordova"
+    logo: "/logos/cordova.svg"
+  threejs:
+    label: "ThreeJS"
+    logo: "/logos/threejs.svg"
+  unity:
+    label: "Unity"
+    logo: "/logos/unity.svg"
+  scorm:
+    label: "Scorm"
+  animate:
+    label: "Animate"
+    logo: "/logos/animate.svg"
+  phaser:
+    label: "Phaser"
+    logo: "/logos/phaser.png"
+  twine:
+    label: "Twine"
+    logo: "/logos/twine.svg"
+  webgl:
+    label: "WebGL"
+    logo: "/logos/webgl.svg"
+
 
 
 # Build settings
