@@ -4,7 +4,7 @@ title:  "Operation Espadon"
 
 img: images/espadon.png
 
-excerpt: "Blake and Mortimer fan game as a final assignment of Animate course"
+excerpt: "Blake and Mortimer shoot 'em up fan game."
 keyVal: 2020.12
 year: 2020
 student: true

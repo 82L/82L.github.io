@@ -3,7 +3,7 @@ layout: "pageProject"
 title:  "DOOM mini-game"
 
 img: images/doom.jpg
-excerpt: "And if doom was a rail shooter ? Class about making a promotional mini-game, with an MCQ and a leaderboard"
+excerpt: "And if doom was a rail shooter? Class about making a promotional mini-game, with an MCQ and a leaderboard."
 keyVal: 2021.03
 year: 03/2021
 display: true
@@ -14,7 +14,7 @@ techs:
   - csharp
   - scorm
 
-format: Mini Video Game
+format: Video Game
 
 role: "Game Design, Project manager, Developer"
 

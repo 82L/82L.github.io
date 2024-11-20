@@ -5,7 +5,7 @@ client: Grand Palais
 enterprise: Opixido
 img: images/meli-melo.jpg
 link : 
-excerpt: "A pure JS puzzle game backed by a CMS, allowing for multiple 	variations"
+excerpt: "A pure JS puzzle game backed by a CMS, allowing for multiple variations."
 year: 04/2022
 keyVal: 2022.04
 role: "Developer"
@@ -14,6 +14,7 @@ format: "Game Website"
 tech-label: "Techs:"
 techs:
   - php
+  - web
   - jquery
 
 links:

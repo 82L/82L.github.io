@@ -4,7 +4,7 @@ title:  "Color Runner"
 
 img: images/runner.png
 
-excerpt:  "An Endless Runner with a twist ! For a course about planning"
+excerpt:  "An Endless Runner with a twist! For a course about planning."
 
 keyVal: 2021.11
 year: 2021
@@ -24,7 +24,7 @@ links:
     icon: "fa-brands fa-gitlab"
     url: "https://gitlab.com/colorrunner/colorrunner"
 
-format: Video Game Prototype
+format: Video Game
 
 role: "Designer, Developer"
 video: /videos/runner.mp4

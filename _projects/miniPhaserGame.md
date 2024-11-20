@@ -1,6 +1,6 @@
 ---
 layout: "pageProject"
-title:  "A Phaser Building Tower Game"
+title:  "A Phaser Building Tower Game."
 img: images/phaser.png
 excerpt: Assignment to do a casual game for a coding class.
 keyVal: 2020.11
@@ -12,6 +12,7 @@ role: "Designer, Developer"
 
 tech-label: "Techs:"
 techs:
+  - web
   - phaser
   
 links:

@@ -2,7 +2,7 @@
 layout: "pageProject"
 title:  "Skit"
 img: images/skit.png
-excerpt: "A visual novel mobile app workflow"
+excerpt: "A visual novel mobile app workflow."
 keyVal: 2023.06
 year: 06/2023
 student: true

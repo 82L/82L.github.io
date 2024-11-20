@@ -2,7 +2,7 @@
 layout: "pageProject"
 title:  "Re-soundscape"
 img: images/resoundscape-title.png
-excerpt: "A mini game about bringing back sound to the world for a class about sound !"
+excerpt: "A mini game about bringing back sound to the world!"
 keyVal: 2024.01
 year: 01/2024
 student: true

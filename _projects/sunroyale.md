@@ -3,7 +3,7 @@ layout: "pageProject"
 title: Sun Royale
 enterprise: Kalank
 img: "images/sr.png"
-excerpt: "A mobile merge game"
+excerpt: "A mobile merge game."
 year: On development
 keyVal: 2024.00
 role: "Developer"

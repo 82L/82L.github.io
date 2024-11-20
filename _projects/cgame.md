@@ -4,7 +4,7 @@ title:  "Little game in C"
 
 img: images/terminal.jpg
 
-excerpt: "A game in C, without pointers, as 1st year CS final assignment "
+excerpt: "A game in C, without pointers, as 1st year CS final assignment."
 keyVal: 2015
 year: 2015
 student: true

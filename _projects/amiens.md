@@ -5,7 +5,7 @@ gh_user: 82L
 gh_repo: AmiensTranseptCathedrale
 img: images/amiens.jpg
 
-excerpt: "FPV visit of Amiens Cathedral"
+excerpt: "FPV visit of Amiens Cathedral."
 
 keyVal: 2018.12
 year: 2018

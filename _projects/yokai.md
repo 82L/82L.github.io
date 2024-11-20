@@ -7,7 +7,7 @@ excerpt: "Digitization of the board game Yokai no Mori, licensed by Ferti, as a 
 keyVal: 2017.12
 year: 2017
 role: Developer
-format: Video game
+format: Video Game
 
 tech-label: "Techs:"
 techs:

@@ -4,7 +4,7 @@ title:  "God Save The Houses"
 
 img: images/godsavethehouse.jpeg
 photodir: "./godhouses/"
-excerpt: "Alt-Ctrl mini game for a class about IOT and disabilities"
+excerpt: "Alt-Ctrl mini game for a class about IOT and disabilities."
 keyVal: 2023.09
 year: 09/2023
 student: true
@@ -23,6 +23,7 @@ tech-label: "Techs:"
 techs:
   - unity
   - csharp
+  - altcrtl
   - arduino
   - cpp
 
