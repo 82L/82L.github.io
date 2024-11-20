@@ -1,6 +1,6 @@
 # Site settings
 title: "82L Portfolio"
-description: "Doing games, serious games and other things.<br/> Studying at the CNAM ENJMIN to be an engineer in computer science and multimedia"
+description: "Developing games, serious games. <br> (and some other things)"
 url: 'https://82l.github.io'
 baseurl: ''
 bkimage: '/images/bk1.jpg'
@@ -123,7 +123,7 @@ techs:
     label: "Unity"
     logo: "/logos/unity.svg"
   scorm:
-    label: "Scorm"
+    label: "SCORM"
   animate:
     label: "Animate"
     logo: "/logos/animate.svg"
@@ -136,6 +136,11 @@ techs:
   webgl:
     label: "WebGL"
     logo: "/logos/webgl.svg"
+  web:
+    label: "Web"
+    logo: "/logos/web.png"
+  altcrtl:
+    label: "Alt Ctrl"
 
 
 
@@ -153,6 +158,15 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      student: false 
+  
 
 plugins: ['jekyll-paginate']
 exclude: ['README.md']

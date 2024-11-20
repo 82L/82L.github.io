@@ -5,7 +5,7 @@ client: Carrière Wellington
 enterprise: Opixido
 img: images/wellington.png
 photodir: "./wellington/"
-excerpt: A PWA to show the diverse places of memory of WW1 in the Hauts-de-France.
+excerpt: "A PWA to show the diverse places of memory of WW1 in the Hauts-de-France."
 year: 03/2021
 keyVal: 2021.03
 role: "Developer"
@@ -14,6 +14,7 @@ format: "PWA"
 
 tech-label: "Techs:"
 techs:
+  - web
   - node
   - jquery
 

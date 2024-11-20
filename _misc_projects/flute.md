@@ -1,6 +1,6 @@
 ---
 layout: "pageProject"
-title:  "A small Taiwanese aboriginal bamboo flute"
+title:  "A small Taiwanese aboriginal bamboo flute."
 img: images/thumb-flute.png
 excerpt: Taiwanese bamboo mini-flutes
 keyVal: 2020.06

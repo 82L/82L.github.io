@@ -2,11 +2,11 @@
 layout: "pageProject"
 title:  "Blender creations"
 img: images/thumb-sceneTotalandCan.png
-excerpt: "3D low poly modelisation for learning"
+excerpt: "3D low poly models."
 keyVal: 2021.03
 year: 2021
 photodir: "./blender/"
-student: Master AMINJ
+student: true
 format: 3D modelling
 
 tech-label: "Tools:" 

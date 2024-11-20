@@ -2,7 +2,7 @@
 layout: "pageProject"
 title:  "A celtic-ish metal ring"
 img: images/thumb-ring5.png
-excerpt: "A tentative copy of a Celtic ring found in Taiwan"
+excerpt: "A tentative copy of a Celtic ring found in Taiwan."
 keyVal: 2020.07
 year: 2020
 display: true

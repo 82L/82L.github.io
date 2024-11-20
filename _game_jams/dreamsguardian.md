@@ -1,7 +1,6 @@
 ---
 layout: "pageProject"
 title: Dreams Guardian
-enterprise: GGJ
 img: images/dreamsguardian.png
 link : https://globalgamejam.org/2021/games/dreams-guardian-3
 desc: "Participation to GGJ 2021, theme: Lost & Found. As a plush, find your owner bed before the nightmares"

@@ -1,12 +1,12 @@
 ---
 layout: "pageProject"
-title:  "Game interface mockup"
+title:  "Game interface mockup."
 img: images/thumb-MockupEvaluation.png
 excerpt: A mockup of a videogame being played for an infography class.
 keyVal: 2020.12
 year: 2020
 photodir : "./infography/"
-student: Master AMINJ
+student: true
 display: true
 
 format: Infography

@@ -6,7 +6,7 @@ enterprise: Opixido
 img: images/citeespace.png
 apple : 
 android : 
-excerpt: A visit companion for the City of space in Toulouse
+excerpt: "A visit companion for the City of space in Toulouse."
 year: 08/2022
 keyVal: 2022.08
 display: true
@@ -14,9 +14,10 @@ display: true
 tech-label: "Techs:"
 techs:
   - php
-  - capacitor
+  - web
   - node
   - jquery
+  - capacitor
 
 links:
   - label: "Test it"

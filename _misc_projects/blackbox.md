@@ -3,12 +3,12 @@ layout: "pageProject"
 title:  "Black Box"
 img: images/arduino.jpeg
 photodir: "./arduino/"
-excerpt: A small game box based on an Arduino
+excerpt: "A small game box based on an Arduino."
 keyVal: 2023.05
 year: 05/2023
-student: EICNAM - CNAM ENJMIN
+student: true
 display: true
-format: Video game
+format: Electronics
 
 tech-label: "Techs:"
 techs:

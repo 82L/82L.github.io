@@ -4,13 +4,14 @@ title: "Femmages"
 client: "Musée Carnavalet"
 enterprise: Opixido
 img: images/femmages-small.png
-excerpt: An app to show the representation of women in Paris public space.
+excerpt: "An app to show the representation of women in Paris public space."
 year: 08/2022
 keyVal: 2022.08
 display: true
 
 tech-label: "Techs:"
 techs:
+  - web
   - node
   - jquery
 

@@ -1,6 +1,6 @@
 ---
 layout: "pageProject"
-title:  "Decorated bamboo mugs"
+title:  "Decorated bamboo mugs."
 img: images/thumb-lion1.png
 excerpt: Bamboo mugs with pyrography decorations
 keyVal: 2018.06

@@ -5,7 +5,7 @@ client: Musée Ingres Bourdelle
 enterprise: Opixido
 img: images/orleans.png
 photodir: "./orleans/"
-excerpt: An interactive digital label for the exposition of a painting.
+excerpt: "An interactive digital label for the exposition of a painting."
 year: 05/2021
 keyVal: 2021.05
 role: "Developer"
@@ -14,6 +14,7 @@ format: "Digital Label"
 
 tech-label: "Techs:"
 techs:
+  - web
   - node
   - cordova
 

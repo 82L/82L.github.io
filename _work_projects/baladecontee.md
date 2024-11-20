@@ -4,17 +4,18 @@ title: Balade Contée
 client: Auberge des Dauphins
 enterprise: Opixido
 img: images/baladecontee.png
-excerpt: An audio guide application for visiting the Auberge des Dauphins
+excerpt: "An audio guide application for visiting the Auberge des Dauphins."
 year: 09/2022
 keyVal: 2022.09
 display: true
 role : "Developer"
 
 tech-label: "Techs:"
-techs: 
-  - capacitor
+techs:
+  - web
   - node
   - jquery
+  - capacitor
 
 links:
   - label: "Test it"

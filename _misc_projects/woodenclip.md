@@ -20,7 +20,7 @@ type: 3
 <p>I started with the wrong tools (common pocket knifes) and updated my gear to carving knives as I progressed. It was my first wood carving project.</p>
 <p>The wood essence choice was poor as it was too hard, which is ill-advised for beginner carver</p>
 
-<p>It was a long journey. It took me more than 1 year to finish. I learned a lot about wood carving, wood finishes, and earned a few cuts. I'm quite happy with the result, as it is a first work. It is perfectible, as the space between the pin and the clip is too thin.</p>
+<p>It was a long journey. It took me more than a year to finish. I learned a lot about wood carving, wood finishes, and earned a few cuts. I'm quite happy with the result, as it is a first work. It is perfectible, as the space between the pin and the clip is too thin.</p>
 
 <p>Here are some pictures : </p>
 <div class="project-gallery">

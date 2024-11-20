@@ -1,8 +1,8 @@
 ---
 layout: "pageProject"
-title:  "Wooden picks decorated with pyrography"
+title:  "Wooden picks decorated with pyrography."
 img: images/thumb-mediator1.png
-excerpt: Wooden pick I made to practice guitar. Because it's cooler
+excerpt: "Wooden pick I made to practice guitar. Because it's cooler."
 keyVal: 2018.05
 year: 2017-2018
 display: true
