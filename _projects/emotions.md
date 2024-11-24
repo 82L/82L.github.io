@@ -2,7 +2,6 @@
 layout: "pageProject"
 title:  "Lever de Rideaux"
 
-gh_user: 82L
 img: images/rideaux-thumb.png
 excerpt: "An AI based game using your expressed emotion as an alternative controller."
 keyVal: 2022.12
@@ -16,6 +15,9 @@ techs:
   - unity
   - csharp
 links:
+  - label: "Test it"
+    icon: "fab fa-itch-io"
+    url: "https://82l.itch.io/lever-de-rideaux"
   - label: "Repo"
     icon: "fab fa-github"
     url: "https://github.com/souryma/The-Doors"
@@ -27,3 +29,4 @@ type: 2
 <p>Based on this, we made a game were the player has to do special facial expressions to open curtains coming toward him. The fun of the game residing in the fact he add to rapidly adapt its facial expression, and the indicators were photos taken of past players</p>
 <p>To ensure that the player was able to do every expression, we added a quick tutorial so he could experiment before the game.</p>
 <p>My job in this project was linking the facial recognition software to Unity, and make it work.</p>
+<p>I recently upgraded it to new tech of facial recognition so users don't have to use a proprietary one</p>

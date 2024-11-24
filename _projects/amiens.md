@@ -1,8 +1,7 @@
 ---
 layout: "pageProject"
 title:  "Visit of Amiens Cathedral Transept"
-gh_user: 82L
-gh_repo: AmiensTranseptCathedrale
+
 img: images/amiens.jpg
 
 excerpt: "FPV visit of Amiens Cathedral."
@@ -19,6 +18,9 @@ links:
   - label: "Test it"
     icon: "fab fa-itch-io"
     url: "https://82l.itch.io/a-little-visit-of-south-transept-of-amiens-cathedral"
+  - label: "Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/82L/AmiensTranseptCathedrale"
     
 format: 3D Experience
 role: "Designer, Developer"
