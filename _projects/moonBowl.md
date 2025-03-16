@@ -3,7 +3,7 @@ layout: "pageProject"
 title:  "Strike and Sorcery"
 img: images/SB-socials_Full_reso.png
 excerpt: "American Football T-RPG Game"
-keyVal: 2024.09
+keyVal: 2023.09
 year: "On development"
 enterprise: Kalank
 display: true
