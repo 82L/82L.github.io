@@ -14,7 +14,7 @@ techs:
   - cpp
 video: /videos/Teaser_Spook_Bowl.mp4
 role: "Developer"
-type: 2
+type: 1
 ---
 In this game, you play as a team ready to tackle a tournament of monstrous american football.
 
