@@ -3,7 +3,7 @@ layout: "pageProject"
 title:  "Strike and Sorcery"
 img: images/sas_front.jpg
 excerpt: "VR Game prototype made in 4 days"
-keyVal: 2025.2702
+keyVal: 2025.0227
 year: 02/2025
 student: true
 
