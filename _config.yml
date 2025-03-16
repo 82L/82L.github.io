@@ -141,6 +141,9 @@ techs:
     logo: "/logos/web.png"
   altcrtl:
     label: "Alt Ctrl"
+  unreal:
+    label: "Unreal Engine"
+    logo: "/logos/unrealLogo.svg"
 
 
 
