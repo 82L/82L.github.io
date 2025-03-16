@@ -1,9 +1,9 @@
 ---
 layout: "pageProject"
-title:  "Strike and Sorcery"
+title:  "Moon Bowl"
 img: images/SB-socials_Full_reso.png
 excerpt: "American Football T-RPG Game"
-keyVal: 2023.09
+keyVal: 2024.001
 year: "On development"
 enterprise: Kalank
 display: true
