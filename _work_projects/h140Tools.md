@@ -1,7 +1,7 @@
 ---
 layout: "pageProject"
 title: H140 presentation tools
-client: Airbus Helicpters
+client: Airbus Helicopters
 enterprise: LS GROUP
 img: images/1742675170026.jpeg
 excerpt: "Creating presentation tools for the sales team of Airbus Helicopters"
